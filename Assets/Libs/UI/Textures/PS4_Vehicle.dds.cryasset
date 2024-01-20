@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="0613ba95-bf70-b21e-b60b-50be36376a24">
+ <Files>
+  <File path="PS4_Vehicle.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

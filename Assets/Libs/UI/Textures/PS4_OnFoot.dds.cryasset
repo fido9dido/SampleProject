@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="1f3aa31a-c964-18ea-99a2-02435d2998ae">
+ <Files>
+  <File path="PS4_OnFoot.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

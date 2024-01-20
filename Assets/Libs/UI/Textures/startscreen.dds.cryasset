@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="c72b0aa4-ea71-567c-6e36-a8df6baf3ae3">
+ <Files>
+  <File path="startscreen.dds"/>
+  <File path="startscreen.dds.1"/>
+  <File path="startscreen.dds.2"/>
+  <File path="startscreen.dds.3"/>
+  <File path="startscreen.dds.4"/>
+  <File path="startscreen.dds.5"/>
+  <File path="startscreen.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

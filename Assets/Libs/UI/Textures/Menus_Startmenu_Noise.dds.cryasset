@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="b443998f-38ec-dbda-0e8e-38899db5ae99">
+ <Files>
+  <File path="Menus_Startmenu_Noise.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">64</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

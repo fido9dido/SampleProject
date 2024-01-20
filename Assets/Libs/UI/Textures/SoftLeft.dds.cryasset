@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="502c1b61-55ab-4fe2-3aca-6b2b68be5e19">
+ <Files>
+  <File path="SoftLeft.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

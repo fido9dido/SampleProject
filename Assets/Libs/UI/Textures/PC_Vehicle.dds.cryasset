@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="4fe0600d-ff2d-59b6-5525-e47b1892aaa2">
+ <Files>
+  <File path="PC_Vehicle.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

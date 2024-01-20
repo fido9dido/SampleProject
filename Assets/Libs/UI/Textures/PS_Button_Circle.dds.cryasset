@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="49ab29e5-4df4-5a3c-ad32-7058e171fefb">
+ <Files>
+  <File path="PS_Button_Circle.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">64</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="a32108e2-6309-abbb-2bd6-14b7a066b80c">
+ <Files>
+  <File path="Xbox_Button_Y.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">64</Detail>
+  <Detail name="height">64</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="5ac1f68c-388a-6fb8-40ea-85d96cead60d">
+ <Files>
+  <File path="background3.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

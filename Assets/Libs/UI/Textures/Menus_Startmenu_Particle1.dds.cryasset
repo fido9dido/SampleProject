@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="5b2e0546-34ed-75d0-aa9c-b085fd1d4f3d">
+ <Files>
+  <File path="Menus_Startmenu_Particle1.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">64</Detail>
+  <Detail name="height">64</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

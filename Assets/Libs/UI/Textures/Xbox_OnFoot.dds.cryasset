@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="b5008113-9a47-8c54-180a-b0c14f60ed3b">
+ <Files>
+  <File path="Xbox_OnFoot.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

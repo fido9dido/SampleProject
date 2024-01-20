@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="4a8f4019-f261-4dce-bd07-473ca21fe12e">
+ <Files>
+  <File path="bumpSign.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

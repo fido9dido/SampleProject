@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="ad5e79d6-3d4e-5e38-598f-51db36908b36">
+ <Files>
+  <File path="HardRight.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

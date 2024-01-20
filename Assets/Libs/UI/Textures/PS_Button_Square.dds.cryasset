@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="3f56a513-37ce-7f5d-ac7c-f4114174fc29">
+ <Files>
+  <File path="PS_Button_Square.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">64</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

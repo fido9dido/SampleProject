@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="6f0382d1-9400-300f-53ac-4de01596b4ec">
+ <Files>
+  <File path="PS_Button_Start.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">64</Detail>
+  <Detail name="height">64</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

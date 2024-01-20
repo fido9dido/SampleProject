@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="13c47729-1b57-d394-3b1f-09084beeabf3">
+ <Files>
+  <File path="Menus_mouse_cursor.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">32</Detail>
+  <Detail name="height">64</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

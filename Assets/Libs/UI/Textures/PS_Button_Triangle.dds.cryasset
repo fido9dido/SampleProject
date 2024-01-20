@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="f50d276f-abee-660a-4802-118a78237c5f">
+ <Files>
+  <File path="PS_Button_Triangle.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">64</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

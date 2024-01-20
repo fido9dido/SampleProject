@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="0e63836c-202d-e19b-894e-137ce5dad811">
+ <Files>
+  <File path="game_round_start_text.dds"/>
+  <File path="game_round_start_text.dds.1"/>
+  <File path="game_round_start_text.dds.2"/>
+  <File path="game_round_start_text.dds.3"/>
+  <File path="game_round_start_text.dds.4"/>
+  <File path="game_round_start_text.dds.5"/>
+  <File path="game_round_start_text.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

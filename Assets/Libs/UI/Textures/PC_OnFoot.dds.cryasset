@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="e7e4a1b8-a529-7819-071e-e2d6c457a42e">
+ <Files>
+  <File path="PC_OnFoot.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

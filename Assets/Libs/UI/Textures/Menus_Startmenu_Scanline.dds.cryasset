@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="23067a5a-d582-76d3-5090-823094af5f81">
+ <Files>
+  <File path="Menus_Startmenu_Scanline.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>
