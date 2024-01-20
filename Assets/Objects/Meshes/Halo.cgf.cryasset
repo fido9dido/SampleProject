@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="f5490b32-b37e-4933-5bda-b8f1b257a90e">
+ <Files>
+  <File path="Halo.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">224</Detail>
+  <Detail name="vertexCount">336</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">%ENGINE%/EngineAssets/TextureMsg/DefaultSolids.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

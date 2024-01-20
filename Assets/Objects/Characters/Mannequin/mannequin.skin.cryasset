@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="05611e2c-8e0f-3ec5-7198-b50742243ae5">
+ <Files>
+  <File path="mannequin.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">34480</Detail>
+  <Detail name="vertexCount">22978</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">53</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/Characters/Mannequin/mannequin.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

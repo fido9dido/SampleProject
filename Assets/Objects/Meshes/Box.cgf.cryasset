@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="8cc14a05-56cd-0bff-3e2a-bc1f02325097">
+ <Files>
+  <File path="Box.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">348</Detail>
+  <Detail name="vertexCount">340</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">%ENGINE%/EngineAssets/TextureMsg/DefaultSolids.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

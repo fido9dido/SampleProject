@@ -1,0 +1,20 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="3bc07455-92ea-bf94-6e5a-f7af5645f431" source="mannequin.fbx">
+ <Files>
+  <File path="tmp_meshImporter_qiTmAZ.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">34480</Detail>
+  <Detail name="vertexCount">22978</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">53</Detail>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">34480</Detail>
+  <Detail name="vertexCount">22978</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">53</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/Characters/Mannequin/mannequin.mtl</Path>
+ </Dependencies>
+</AssetMetadata>
