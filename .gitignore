@@ -28,10 +28,13 @@ _WAF_/user_settings.options
 /TestResults/*
 [Ss]olutions/*
 [Ss]olutions_cmake/*
-/.depproj/*
-**/Game.sln
+/[Bb]uild/
+/[Bb]uilds/
+/[Ee]ditor/
 [Ll]og[Bb]ackups
 [Uu]ser*/
+/.depproj/*
+**/Game.sln
 __pycache__/*
 
 # Might contain a license key, so don't add it to a repo.
