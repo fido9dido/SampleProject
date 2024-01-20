@@ -14,7 +14,7 @@ class CPlayerComponent;
 class CGamePlugin 
 	: public Cry::IEnginePlugin
 	, public ISystemEventListener
-	, public INetworkedClientListener
+	//, public INetworkedClientListener
 {
 public:
 	CRYINTERFACE_SIMPLE(Cry::IEnginePlugin)
@@ -31,7 +31,7 @@ public:
 	virtual void OnSystemEvent(ESystemEvent event, UINT_PTR wparam, UINT_PTR lparam) override;
 	// ~ISystemEventListener
 
-	// INetworkedClientListener
+	/*// INetworkedClientListener
 	// Sent to the local client on disconnect
 	virtual void OnLocalClientDisconnected(EDisconnectionCause cause, const char* description) override {}
 
@@ -49,7 +49,7 @@ public:
 	// ~INetworkedClientListener
 
 	// Helper function to call the specified callback for every player in the game
-	void IterateOverPlayers(std::function<void(CPlayerComponent& player)> func) const;
+	void IterateOverPlayers(std::function<void(CPlayerComponent& player)> func) const;*/
 
 	// Helper function to get the CGamePlugin instance
 	// Note that CGamePlugin is declared as a singleton, so the CreateClassInstance will always return the same pointer
@@ -59,6 +59,6 @@ public:
 	}
 	
 protected:
-	// Map containing player components, key is the channel id received in OnClientConnectionReceived
-	std::unordered_map<int, EntityId> m_players;
+	//// Map containing player components, key is the channel id received in OnClientConnectionReceived
+	//std::unordered_map<int, EntityId> m_players;
 };

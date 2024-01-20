@@ -26,7 +26,7 @@
         "name": "SampleProject"
     },
     "require": {
-        "engine": "engine-5.7-SourceCode",
+        "engine": "engine-5.7",
         "plugins": [
             {
                 "guid": "",
@@ -50,7 +50,7 @@
             },
             {
                 "guid": "",
-                "path": "bin/win_x64/Game.dll",
+                "path": "bin/win_x64/LearningProject.dll",
                 "type": "EType::Native"
             },
             {
