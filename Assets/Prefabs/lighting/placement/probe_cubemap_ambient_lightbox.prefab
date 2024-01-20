@@ -1,0 +1,39 @@
+<Prefab Name="probe_cubemap_ambient_lightbox" Id="{4A2A1EEC-856B-4B8F-868A-E34A8E78C4D3}" Library="lighting">
+ <Objects>
+  <Object Type="LightBox" Layer="Lighting_AB1_Rebel_building" Id="{C756B374-FCDA-4E84-BAD6-72B2B2237C43}" Name="AB1_room_a_lightbox1" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16711680" MatLayersMask="0" OriginAtCorner="1" Width="8" Length="8" Height="5" DisableGI="0" EntityClass="LightBox" BoxMin="0,0,0" BoxMax="8,8,5"/>
+  <Object Type="Entity" Layer="Lighting_AB1_Rebel_building" Id="{0C34F191-F6AB-4327-9D21-1EC088A39E12}" Name="AB1_room_a_ambient_light1" Pos="4,4,2" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+   <Properties bActive="0" Radius="10" _nVersion="0">
+    <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fHDRDynamic="0" fSpecularMultiplier="1"/>
+    <Options bAffectsThisAreaOnly="1" bAmbientLight="1" bCastShadow="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="1" bFakeLight="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" bNegativeLight="0" nPostEffect="0"/>
+    <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+    <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0">
+     <Rotation x="0" y="0" z="0"/>
+    </Style>
+   </Properties>
+   <EntityLinks>
+    <Link TargetId="{C756B374-FCDA-4E84-BAD6-72B2B2237C43}" Name="NewLink" RelRot="1,0,0,0" RelPos="0,0,0"/>
+   </EntityLinks>
+  </Object>
+  <Object Type="Entity" Layer="Lighting_AB1_Rebel_building" Id="{C448169C-BAA7-46FE-9D6B-9BE16A940B2C}" Name="AB1_room_a_cubemap1" Pos="4,4,2.5" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+   <Properties bActive="0" Radius="10" _nVersion="0">
+    <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fHDRDynamic="0" fSpecularMultiplier="1"/>
+    <Options bAffectsThisAreaOnly="1" bAmbientLight="1" bCastShadow="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="1" bFakeLight="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" bNegativeLight="0" nPostEffect="0"/>
+    <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+    <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0">
+     <Rotation x="0" y="0" z="0"/>
+    </Style>
+   </Properties>
+  </Object>
+  <Object Type="EnvironmentProbe" Layer="Lighting_AB1_Rebel_building" Id="{AB636CC6-59D8-422C-927D-18D960F2ABF6}" Name="AB1_room_a_probe1" Pos="4,4,1.375" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" cubemap_resolution="128" preview_cubemap="0" OutdoorOnly="0" CastShadow="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight">
+   <Properties bActive="1" Radius="10" _nVersion="-1">
+    <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fHDRDynamic="5" fSpecularMultiplier="1"/>
+    <Options bAffectsThisAreaOnly="1" file_deferred_clip_geom="" _texture_deferred_cubemap="" bDeferredClipBounds="1" bDeferredLight="1" bIgnoresVisAreas="0"/>
+    <OptionsAdvanced texture_deferred_cubemap="textures/cubemaps/generic/generic_cm.dds"/>
+   </Properties>
+   <EntityLinks>
+    <Link TargetId="{C756B374-FCDA-4E84-BAD6-72B2B2237C43}" Name="NewLink" RelRot="1,0,0,0" RelPos="0,0,0"/>
+    <Link TargetId="{C448169C-BAA7-46FE-9D6B-9BE16A940B2C}" Name="NewLink" RelRot="1,0,0,0" RelPos="0,0,0"/>
+   </EntityLinks>
+  </Object>
+ </Objects>
+</Prefab>

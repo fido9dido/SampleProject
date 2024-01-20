@@ -1,0 +1,107 @@
+<Prefab Name="fishing_boat_a" Id="{1BEFD3C6-103B-4135-9936-8A23A4384B34}" Library="props">
+ <Objects>
+  <Object Type="Entity" Layer="Coast" LayerGUID="{9ED7E125-6732-4C17-B24B-6493921E4D63}" Id="{EDD96748-913D-4CED-94C3-BC680261E9F3}" Name="fishing_boat" Pos="1.2472534,3.5963135,0.73196411" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="200" ViewDistRatio="40" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="RigidBodyEx">
+   <Properties bAutoGenAIHidePts="0" bCanShatter="1" esFaction="" bFreezable="1" bHeavyObject="0" bInteractLargeObject="0" object_Model="objects/vehicles/fisher_boat/fishing_boat.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+    <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+    <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+     <vOffset x="0" y="0" z="0"/>
+    </Interest>
+    <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="255" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="0" bRigidBody="1" bRigidBodyActive="1">
+     <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+     <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+    </Physics>
+   </Properties>
+   <Properties2>
+    <Interest soaction_Action="" bInteresting="0" InterestLevel="-1" bOverrideArchetype="0" Pause="-1" Radius="-1" bShared="0"/>
+   </Properties2>
+  </Object>
+  <Object Type="GeomEntity" Layer="Coast" LayerGUID="{9ED7E125-6732-4C17-B24B-6493921E4D63}" Id="{A531745A-6C6B-4363-8330-343A511C51DF}" Name="buoy4" Parent="{EDD96748-913D-4CED-94C3-BC680261E9F3}" Pos="-1.111702,0.61611938,0.067108154" FloorNumber="-1" Rotate="0.028061971,0.033435404,0.71855468,0.69409925" ColorRGB="65535" MatLayersMask="0" Geometry="objects/vehicles/fisher_boat/buoy.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="200" ViewDistRatio="50" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+   <Properties esFaction="">
+    <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+    <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+     <vOffset x="0" y="0" z="0"/>
+    </Interest>
+   </Properties>
+  </Object>
+  <Object Type="GeomEntity" Layer="Coast" LayerGUID="{9ED7E125-6732-4C17-B24B-6493921E4D63}" Id="{0FF35C21-02E5-4BC4-A81C-E2E61969B727}" Name="buoy3" Parent="{EDD96748-913D-4CED-94C3-BC680261E9F3}" Pos="-1.1093674,-1.0729065,0.046310425" FloorNumber="-1" Rotate="-0.014241952,-0.023359891,0.67535591,0.73698431" ColorRGB="65535" MatLayersMask="0" Geometry="objects/vehicles/fisher_boat/buoy.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="200" ViewDistRatio="50" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+   <Properties esFaction="">
+    <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+    <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+     <vOffset x="0" y="0" z="0"/>
+    </Interest>
+   </Properties>
+  </Object>
+  <Object Type="GeomEntity" Layer="Coast" LayerGUID="{9ED7E125-6732-4C17-B24B-6493921E4D63}" Id="{35CA3E0A-1157-4604-97AB-2B9759E2B4E1}" Name="outboard_engine" Parent="{EDD96748-913D-4CED-94C3-BC680261E9F3}" Pos="-0.43676758,-3.2900696,0.0040130615" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Geometry="Objects/vehicles/fisher_boat/outboard_motor.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="200" ViewDistRatio="40" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+   <Properties esFaction="">
+    <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+    <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+     <vOffset x="0" y="0" z="0"/>
+    </Interest>
+   </Properties>
+  </Object>
+  <Object Type="GeomEntity" Layer="Coast" LayerGUID="{9ED7E125-6732-4C17-B24B-6493921E4D63}" Id="{281B0F79-CFED-48BA-940C-ECA396F4CDE0}" Name="lifebelt" Parent="{35CA3E0A-1157-4604-97AB-2B9759E2B4E1}" Pos="0.64807129,1.7218628,-0.2089386" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Geometry="objects/vehicles/fisher_boat/lifering.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="200" ViewDistRatio="20" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+   <Properties esFaction="">
+    <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+    <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+     <vOffset x="0" y="0" z="0"/>
+    </Interest>
+   </Properties>
+  </Object>
+  <Object Type="GeomEntity" Layer="Coast" LayerGUID="{9ED7E125-6732-4C17-B24B-6493921E4D63}" Id="{FCAE1268-E584-4F6F-8081-8A3C468853A8}" Name="buoy1" Parent="{EDD96748-913D-4CED-94C3-BC680261E9F3}" Pos="1.1249924,0.52362061,0.063842773" FloorNumber="-1" Rotate="0.66902864,0.74303168,0.011677939,0.012969663" ColorRGB="65535" MatLayersMask="0" Geometry="objects/vehicles/fisher_boat/buoy.cgf" OutdoorOnly="0" CastShadow="0" LodRatio="200" ViewDistRatio="50" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+   <Properties esFaction="">
+    <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+    <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+     <vOffset x="0" y="0" z="0"/>
+    </Interest>
+   </Properties>
+  </Object>
+  <Object Type="GeomEntity" Layer="Coast" LayerGUID="{9ED7E125-6732-4C17-B24B-6493921E4D63}" Id="{4D4B42E3-D651-4C80-BCF6-198CAFD87B01}" Name="buoy2" Parent="{EDD96748-913D-4CED-94C3-BC680261E9F3}" Pos="1.1222076,-1.166626,0.046310425" FloorNumber="-1" Rotate="0.73703241,0.67575973,-0.00022388603,-0.011487068" ColorRGB="65535" MatLayersMask="0" Geometry="objects/vehicles/fisher_boat/buoy.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="200" ViewDistRatio="50" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+   <Properties esFaction="">
+    <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+    <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+     <vOffset x="0" y="0" z="0"/>
+    </Interest>
+   </Properties>
+  </Object>
+  <Object Type="GeomEntity" Layer="Coast" LayerGUID="{9ED7E125-6732-4C17-B24B-6493921E4D63}" Id="{3FB766F4-F81B-4CC8-9A25-89B52EDAE980}" Name="buoy_rope_1_1" Parent="{EDD96748-913D-4CED-94C3-BC680261E9F3}" Pos="1.0158615,0.60409546,0.23143005" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Geometry="objects/vehicles/fisher_boat/buoy_rope_1.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="200" ViewDistRatio="20" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+   <Properties esFaction="">
+    <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+    <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+     <vOffset x="0" y="0" z="0"/>
+    </Interest>
+   </Properties>
+  </Object>
+  <Object Type="GeomEntity" Layer="Coast" LayerGUID="{9ED7E125-6732-4C17-B24B-6493921E4D63}" Id="{863E026A-BC44-4B4C-97F7-919A4C711711}" Name="buoy_rope_1_2" Parent="{EDD96748-913D-4CED-94C3-BC680261E9F3}" Pos="-1.0137863,0.51153564,0.22816467" FloorNumber="-1" Rotate="0.061011299,0.00030454955,-0.034898166,0.99752676" ColorRGB="65535" MatLayersMask="0" Geometry="objects/vehicles/fisher_boat/buoy_rope_1.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="200" ViewDistRatio="20" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+   <Properties esFaction="">
+    <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+    <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+     <vOffset x="0" y="0" z="0"/>
+    </Interest>
+   </Properties>
+  </Object>
+  <Object Type="GeomEntity" Layer="Coast" LayerGUID="{9ED7E125-6732-4C17-B24B-6493921E4D63}" Id="{096A6C68-66E4-4250-A528-B6E4982C2EFC}" Name="buoy_rope_2_1" Parent="{EDD96748-913D-4CED-94C3-BC680261E9F3}" Pos="1.0103455,-1.0690308,0.23649597" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Geometry="objects/vehicles/fisher_boat/buoy_rope_2.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="200" ViewDistRatio="20" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+   <Properties esFaction="">
+    <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+    <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+     <vOffset x="0" y="0" z="0"/>
+    </Interest>
+   </Properties>
+  </Object>
+  <Object Type="GeomEntity" Layer="Coast" LayerGUID="{9ED7E125-6732-4C17-B24B-6493921E4D63}" Id="{5499B3D0-09BB-40E9-A755-07CA1AB38FFD}" Name="buoy_rope_2_2" Parent="{EDD96748-913D-4CED-94C3-BC680261E9F3}" Pos="-0.99469757,-1.1627502,0.23649597" FloorNumber="-1" Rotate="-0.034899451,0,0,0.99939084" ColorRGB="65535" MatLayersMask="0" Geometry="objects/vehicles/fisher_boat/buoy_rope_2.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="200" ViewDistRatio="20" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+   <Properties esFaction="">
+    <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+    <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+     <vOffset x="0" y="0" z="0"/>
+    </Interest>
+   </Properties>
+  </Object>
+  <Object Type="GeomEntity" Layer="Coast" LayerGUID="{9ED7E125-6732-4C17-B24B-6493921E4D63}" Id="{5B9F1329-CEB3-45E8-9A02-48C0185AE2A1}" Name="lifebelt_rope" Parent="{EDD96748-913D-4CED-94C3-BC680261E9F3}" Pos="0.16806793,-1.1211853,-0.0093536377" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Geometry="Objects/vehicles/fisher_boat/lifebelt_rope.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="200" ViewDistRatio="20" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+   <Properties esFaction="">
+    <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+    <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+     <vOffset x="0" y="0" z="0"/>
+    </Interest>
+   </Properties>
+  </Object>
+ </Objects>
+</Prefab>

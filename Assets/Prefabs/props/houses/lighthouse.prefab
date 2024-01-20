@@ -1,0 +1,438 @@
+<Prefab Name="lighthouse" Id="{7EC4FD4E-CF20-4487-9192-C43E167F2EF1}" Library="props">
+ <Objects>
+  <Object Type="VisArea" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{76987F1D-2D56-4F6B-BAF3-C7F32F62040E}" Name="Lighthouse_VisArea2" Pos="5.7632141,4.4165955,16.511612" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="33023" Height="3.8" DisplayFilled="1" AmbientColor="0,0,0" AffectedBySun="0" IgnoreSkyColor="1" IgnoreGI="1" ViewDistRatio="100" SkyOnly="0" OceanIsVisible="0" EntityClass="AreaShape">
+   <Points>
+    <Point Pos="0,0,0"/>
+    <Point Pos="-1.75,1,0"/>
+    <Point Pos="-2,2.75,0"/>
+    <Point Pos="-1.5,3.875,0"/>
+    <Point Pos="0,4.375,0"/>
+    <Point Pos="1.625,3.875,0"/>
+    <Point Pos="2.25,2.625,0"/>
+    <Point Pos="1.5,0.5,0"/>
+   </Points>
+   <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Side6="0" Side7="0" Side8="0" Roof="0" Floor="0"/>
+  </Object>
+  <Object Type="VisArea" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{506589B3-3F5B-4F9A-ACFF-79E2DC23F364}" Name="Lighthouse_VisArea3" Pos="5.7631836,3.2915344,0.49766541" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="33023" Height="15.9" DisplayFilled="1" AmbientColor="0,0,0" AffectedBySun="1" IgnoreSkyColor="1" IgnoreGI="1" ViewDistRatio="100" SkyOnly="0" OceanIsVisible="0" EntityClass="AreaShape">
+   <Points>
+    <Point Pos="0,0,0"/>
+    <Point Pos="-2.75,1.5,0"/>
+    <Point Pos="-3.25,4,0"/>
+    <Point Pos="-2.375,5.875,0"/>
+    <Point Pos="-0.125,7,0"/>
+    <Point Pos="2.7499695,5.75,0"/>
+    <Point Pos="3.9999695,3.5,0.013931274"/>
+    <Point Pos="2.4999695,0.5,0.013931274"/>
+   </Points>
+   <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Side6="0" Side7="0" Side8="0" Roof="0" Floor="0"/>
+  </Object>
+  <Object Type="Portal" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{88B2ADDE-C145-43F3-A066-FBF0CF914F05}" Name="Portal10" Pos="7.3881836,7.2915955,20.261597" FloorNumber="-1" Rotate="0.61566126,0,0,0.78801095" ColorRGB="3996260" Height="0.1" DisplayFilled="1" AmbientColor="0,0,0" AffectedBySun="1" IgnoreSkyColor="1" IgnoreGI="1" ViewDistRatio="100" SkyOnly="0" OceanIsVisible="0" UseDeepness="1" DoubleSide="1" EntityClass="AreaShape">
+   <Points>
+    <Point Pos="0,0,0"/>
+    <Point Pos="-0.54628026,0.90916324,0"/>
+    <Point Pos="0.50873804,1.0842696,0.019316666"/>
+    <Point Pos="1.1517346,0.48577946,0.01931221"/>
+   </Points>
+   <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+  </Object>
+  <Object Type="Portal" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{5A578401-553A-4F72-A09F-6734E4618245}" Name="Portal3" Pos="7.3819885,9.4551697,3.4972992" FloorNumber="-1" Rotate="0.84804809,0,0,0.52991927" ColorRGB="3996260" Height="2" DisplayFilled="1" AmbientColor="0,0,0" AffectedBySun="1" IgnoreSkyColor="1" IgnoreGI="1" ViewDistRatio="100" SkyOnly="0" OceanIsVisible="0" UseDeepness="1" DoubleSide="1" EntityClass="AreaShape">
+   <Points>
+    <Point Pos="0,0,0"/>
+    <Point Pos="0.375,0,0"/>
+    <Point Pos="0.375,0.75,0"/>
+    <Point Pos="0,0.75,0"/>
+   </Points>
+   <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+  </Object>
+  <Object Type="Portal" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{1EAEFAEE-8690-4295-99A3-7FFD8DD37F02}" Name="Portal2" Pos="4.5673218,3.6841736,3.5148163" FloorNumber="-1" Rotate="0.84804809,0,0,0.52991927" ColorRGB="3996260" Height="2" DisplayFilled="1" AmbientColor="0,0,0" AffectedBySun="1" IgnoreSkyColor="1" IgnoreGI="1" ViewDistRatio="100" SkyOnly="0" OceanIsVisible="0" UseDeepness="1" DoubleSide="1" EntityClass="AreaShape">
+   <Points>
+    <Point Pos="0,0,0"/>
+    <Point Pos="0.375,0,0"/>
+    <Point Pos="0.375,0.75,0"/>
+    <Point Pos="0,0.75,0"/>
+   </Points>
+   <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+  </Object>
+  <Object Type="Portal" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{2BF5D46A-F4C0-4532-9018-A4A0D5FA10E8}" Name="Portal6" Pos="3.2308044,8.3578186,7.7472992" FloorNumber="-1" Rotate="0.22495091,0,0,0.97437012" ColorRGB="3996260" Height="2" DisplayFilled="1" AmbientColor="0,0,0" AffectedBySun="1" IgnoreSkyColor="1" IgnoreGI="1" ViewDistRatio="100" SkyOnly="0" OceanIsVisible="0" UseDeepness="1" DoubleSide="1" EntityClass="AreaShape">
+   <Points>
+    <Point Pos="0,0,0"/>
+    <Point Pos="0.375,0,0"/>
+    <Point Pos="0.375,0.75,0"/>
+    <Point Pos="0,0.75,0"/>
+   </Points>
+   <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+  </Object>
+  <Object Type="Portal" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{5B9A55FD-B766-4F84-8CC3-490422BA9439}" Name="Portal8" Pos="3.2308044,8.3578186,13.475403" FloorNumber="-1" Rotate="0.22495091,0,0,0.97437012" ColorRGB="3996260" Height="2" DisplayFilled="1" AmbientColor="0,0,0" AffectedBySun="1" IgnoreSkyColor="1" IgnoreGI="1" ViewDistRatio="100" SkyOnly="0" OceanIsVisible="0" UseDeepness="1" DoubleSide="1" EntityClass="AreaShape">
+   <Points>
+    <Point Pos="0,0,0"/>
+    <Point Pos="0.375,0,0"/>
+    <Point Pos="0.375,0.75,0"/>
+    <Point Pos="0,0.75,0"/>
+   </Points>
+   <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+  </Object>
+  <Object Type="Portal" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{419EB2E8-0E1E-4CB9-BC03-F7A68362A7F5}" Name="Portal15" Pos="9.2808533,5.4069519,13.475403" FloorNumber="-1" Rotate="0.22495088,0,0,0.97437012" ColorRGB="3996260" Height="2" DisplayFilled="1" AmbientColor="0,0,0" AffectedBySun="1" IgnoreSkyColor="1" IgnoreGI="1" ViewDistRatio="100" SkyOnly="0" OceanIsVisible="0" UseDeepness="1" DoubleSide="1" EntityClass="AreaShape">
+   <Points>
+    <Point Pos="0,0,0"/>
+    <Point Pos="0.375,0,0"/>
+    <Point Pos="0.375,0.75,0"/>
+    <Point Pos="0,0.75,0"/>
+   </Points>
+   <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+  </Object>
+  <Object Type="Portal" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{B4DA6695-82BB-4C04-B984-EC80C3E78BD4}" Name="Portal14" Pos="9.2102966,5.4413147,7.7472992" FloorNumber="-1" Rotate="0.22495088,0,0,0.97437012" ColorRGB="3996260" Height="2" DisplayFilled="1" AmbientColor="0,0,0" AffectedBySun="1" IgnoreSkyColor="1" IgnoreGI="1" ViewDistRatio="100" SkyOnly="0" OceanIsVisible="0" UseDeepness="1" DoubleSide="1" EntityClass="AreaShape">
+   <Points>
+    <Point Pos="0,0,0"/>
+    <Point Pos="0.375,0,0"/>
+    <Point Pos="0.375,0.75,0"/>
+    <Point Pos="0,0.75,0"/>
+   </Points>
+   <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+  </Object>
+  <Object Type="Portal" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{E649C64D-098C-4E78-B43E-D229B3E61406}" Name="Main Lighthouse Door Portal" Pos="8.5921936,4.486908,1.2305908" FloorNumber="-1" Rotate="0.97437006,0,0,-0.22495104" ColorRGB="3996260" Height="2.8" DisplayFilled="1" AmbientColor="0,0,0" AffectedBySun="1" IgnoreSkyColor="1" IgnoreGI="1" ViewDistRatio="100" SkyOnly="0" OceanIsVisible="0" UseDeepness="1" DoubleSide="0" EntityClass="AreaShape">
+   <Points>
+    <Point Pos="0,0,0"/>
+    <Point Pos="-0.031921387,1.7359619,0.0068969727"/>
+    <Point Pos="0.375,1.75,0"/>
+    <Point Pos="0.375,0,0"/>
+   </Points>
+   <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+  </Object>
+  <Object Type="Portal" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{680F95B9-0156-4871-ADC9-883104DB1105}" Name="Portal7" Pos="6.7983398,8.4056091,18.511612" FloorNumber="-1" Rotate="0.93358046,0,0,0.35836792" ColorRGB="3996260" Height="1.7" DisplayFilled="1" AmbientColor="0,0,0" AffectedBySun="1" IgnoreSkyColor="1" IgnoreGI="1" ViewDistRatio="100" SkyOnly="0" OceanIsVisible="0" UseDeepness="1" DoubleSide="1" EntityClass="AreaShape">
+   <Points>
+    <Point Pos="0,0,0"/>
+    <Point Pos="-0.36683986,0.64538479,0"/>
+    <Point Pos="-0.12986426,0.78975946,0"/>
+    <Point Pos="0.26021177,0.10212533,0"/>
+   </Points>
+   <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+  </Object>
+  <Object Type="Group" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{19A56C6C-978C-476F-8117-706BE4DF9E00}" Name="lighthouse" Pos="6.2275696,6.6107483,10.711121" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65280" MergeGeom="0" Opened="0">
+   <Objects />
+  </Object>
+  <Object Type="Entity" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{3EC479DA-509D-42A3-86BF-A8F92C9867DB}" Name="Light69" Parent="{19A56C6C-978C-476F-8117-706BE4DF9E00}" Pos="-2.2097168,0.83575439,3.3754425" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" LodRatio="100" ViewDistRatio="2" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+   <Properties bActive="1" Radius="3.54" _nVersion="0">
+    <Color clrDiffuse="0.334458,0.560499,0.907547" fDiffuseMultiplier="0.5" fHDRDynamic="0" fSpecularMultiplier="12.2"/>
+    <Options bAffectsThisAreaOnly="1" bAmbientLight="0" bCastShadow="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDisableX360Opto="0" bFakeLight="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" nPostEffect="0" fShadowBias="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+    <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+    <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaIntensity="1" fCoronaScale="1" nCoronaShaftsMinSpec="3" nLensGhostsMinSpec="3" lightanimation_LightAnimation="" nLightStyle="0" fShaftBlendFactor="10" fShaftBrightness="10" fShaftDecayFactor="88" fShaftLength="95" fShaftSrcSize="19" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0">
+     <Rotation x="0" y="0" z="0"/>
+    </Style>
+   </Properties>
+  </Object>
+  <Object Type="Entity" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{71A580A0-47DD-43AA-BD67-B1CFD2C72E6E}" Name="Light76" Parent="{19A56C6C-978C-476F-8117-706BE4DF9E00}" Pos="-1.5765076,0.2666626,7.3978577" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" LodRatio="100" ViewDistRatio="2" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+   <Properties bActive="1" Radius="1.83" _nVersion="0">
+    <Color clrDiffuse="0.774227,0.573159,0.368591" fDiffuseMultiplier="0.9" fHDRDynamic="0" fSpecularMultiplier="0.7"/>
+    <Options bAffectsThisAreaOnly="1" bAmbientLight="0" bCastShadow="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDisableX360Opto="0" bFakeLight="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" nPostEffect="0" fShadowBias="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+    <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+    <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaIntensity="1" fCoronaScale="1" nCoronaShaftsMinSpec="3" nLensGhostsMinSpec="3" lightanimation_LightAnimation="" nLightStyle="0" fShaftBlendFactor="10" fShaftBrightness="10" fShaftDecayFactor="88" fShaftLength="95" fShaftSrcSize="19" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0">
+     <Rotation x="0" y="0" z="0"/>
+    </Style>
+   </Properties>
+  </Object>
+  <Object Type="Entity" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{23910833-79BD-4188-883B-097658E99D1A}" Name="Light67" Parent="{19A56C6C-978C-476F-8117-706BE4DF9E00}" Pos="1.2790222,-0.39520264,-2.2270508" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" LodRatio="100" ViewDistRatio="2" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+   <Properties bActive="1" Radius="3.54" _nVersion="0">
+    <Color clrDiffuse="0.334458,0.560499,0.907547" fDiffuseMultiplier="0.5" fHDRDynamic="0" fSpecularMultiplier="12.2"/>
+    <Options bAffectsThisAreaOnly="1" bAmbientLight="0" bCastShadow="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDisableX360Opto="0" bFakeLight="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" nPostEffect="0" fShadowBias="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+    <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+    <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaIntensity="1" fCoronaScale="1" nCoronaShaftsMinSpec="3" nLensGhostsMinSpec="3" lightanimation_LightAnimation="" nLightStyle="0" fShaftBlendFactor="10" fShaftBrightness="10" fShaftDecayFactor="88" fShaftLength="95" fShaftSrcSize="19" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0">
+     <Rotation x="0" y="0" z="0"/>
+    </Style>
+   </Properties>
+  </Object>
+  <Object Type="Entity" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{8F0BF7CF-C49E-4A6E-A57A-F8F98BBBA4BF}" Name="Light70" Parent="{19A56C6C-978C-476F-8117-706BE4DF9E00}" Pos="0.40005493,2.029541,-6.4636993" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" LodRatio="100" ViewDistRatio="2" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+   <Properties bActive="1" Radius="3.54" _nVersion="0">
+    <Color clrDiffuse="0.334458,0.560499,0.907547" fDiffuseMultiplier="0.5" fHDRDynamic="0" fSpecularMultiplier="12.2"/>
+    <Options bAffectsThisAreaOnly="1" bAmbientLight="0" bCastShadow="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDisableX360Opto="0" bFakeLight="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" nPostEffect="0" fShadowBias="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+    <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+    <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaIntensity="1" fCoronaScale="1" nCoronaShaftsMinSpec="3" nLensGhostsMinSpec="3" lightanimation_LightAnimation="" nLightStyle="0" fShaftBlendFactor="10" fShaftBrightness="10" fShaftDecayFactor="88" fShaftLength="95" fShaftSrcSize="19" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0">
+     <Rotation x="0" y="0" z="0"/>
+    </Style>
+   </Properties>
+  </Object>
+  <Object Type="Entity" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{B2300063-F537-40D4-B391-B29560720E08}" Name="Light71" Parent="{19A56C6C-978C-476F-8117-706BE4DF9E00}" Pos="-1.8436279,-2.336853,-6.3819122" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" LodRatio="100" ViewDistRatio="2" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+   <Properties bActive="1" Radius="3.54" _nVersion="0">
+    <Color clrDiffuse="0.334458,0.560499,0.907547" fDiffuseMultiplier="0.5" fHDRDynamic="0" fSpecularMultiplier="12.2"/>
+    <Options bAffectsThisAreaOnly="1" bAmbientLight="0" bCastShadow="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDisableX360Opto="0" bFakeLight="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" nPostEffect="0" fShadowBias="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+    <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+    <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaIntensity="1" fCoronaScale="1" nCoronaShaftsMinSpec="3" nLensGhostsMinSpec="3" lightanimation_LightAnimation="" nLightStyle="0" fShaftBlendFactor="10" fShaftBrightness="10" fShaftDecayFactor="88" fShaftLength="95" fShaftSrcSize="19" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0">
+     <Rotation x="0" y="0" z="0"/>
+    </Style>
+   </Properties>
+  </Object>
+  <Object Type="Entity" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{5841222A-9FF5-4434-A88D-83B7F5BFAD5E}" Name="Light74" Parent="{19A56C6C-978C-476F-8117-706BE4DF9E00}" Pos="-0.93865967,0.83911133,8.6488495" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" LodRatio="100" ViewDistRatio="2" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+   <Properties bActive="1" Radius="2.97" _nVersion="0">
+    <Color clrDiffuse="0.774227,0.573159,0.368591" fDiffuseMultiplier="0.4" fHDRDynamic="0" fSpecularMultiplier="1"/>
+    <Options bAffectsThisAreaOnly="0" bAmbientLight="0" bCastShadow="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDisableX360Opto="0" bFakeLight="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" nPostEffect="0" fShadowBias="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+    <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+    <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaIntensity="1" fCoronaScale="1" nCoronaShaftsMinSpec="3" nLensGhostsMinSpec="3" lightanimation_LightAnimation="" nLightStyle="0" fShaftBlendFactor="10" fShaftBrightness="10" fShaftDecayFactor="88" fShaftLength="95" fShaftSrcSize="19" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0">
+     <Rotation x="0" y="0" z="0"/>
+    </Style>
+   </Properties>
+  </Object>
+  <Object Type="Entity" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{C072C49B-0140-4E88-8C1E-608B8C21FBBC}" Name="Light68" Parent="{19A56C6C-978C-476F-8117-706BE4DF9E00}" Pos="1.147583,-0.52624512,3.3796387" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" LodRatio="100" ViewDistRatio="2" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+   <Properties bActive="1" Radius="3.54" _nVersion="0">
+    <Color clrDiffuse="0.334458,0.560499,0.907547" fDiffuseMultiplier="0.5" fHDRDynamic="0" fSpecularMultiplier="12.2"/>
+    <Options bAffectsThisAreaOnly="0" bAmbientLight="0" bCastShadow="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDisableX360Opto="0" bFakeLight="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" nPostEffect="0" fShadowBias="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+    <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+    <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaIntensity="1" fCoronaScale="1" nCoronaShaftsMinSpec="3" nLensGhostsMinSpec="3" lightanimation_LightAnimation="" nLightStyle="0" fShaftBlendFactor="10" fShaftBrightness="10" fShaftDecayFactor="88" fShaftLength="95" fShaftSrcSize="19" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0">
+     <Rotation x="0" y="0" z="0"/>
+    </Style>
+   </Properties>
+  </Object>
+  <Object Type="Entity" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{E5663DE8-BC9D-4B81-8382-10A497CC563E}" Name="Light15" Parent="{19A56C6C-978C-476F-8117-706BE4DF9E00}" Pos="-2.5352783,0.95843506,-1.4541473" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" LodRatio="100" ViewDistRatio="2" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+   <Properties bActive="1" Radius="3.54" _nVersion="0">
+    <Color clrDiffuse="0.334458,0.560499,0.907547" fDiffuseMultiplier="0.5" fHDRDynamic="0" fSpecularMultiplier="12.2"/>
+    <Options bAffectsThisAreaOnly="1" bAmbientLight="0" bCastShadow="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDisableX360Opto="0" bFakeLight="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" nPostEffect="0" fShadowBias="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+    <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+    <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaIntensity="1" fCoronaScale="1" nCoronaShaftsMinSpec="3" nLensGhostsMinSpec="3" lightanimation_LightAnimation="" nLightStyle="0" fShaftBlendFactor="10" fShaftBrightness="10" fShaftDecayFactor="88" fShaftLength="95" fShaftSrcSize="19" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0">
+     <Rotation x="0" y="0" z="0"/>
+    </Style>
+   </Properties>
+  </Object>
+  <Object Type="Entity" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{A6509BFC-B0DA-4383-A48D-24C526B9B556}" Name="Light79" Parent="{19A56C6C-978C-476F-8117-706BE4DF9E00}" Pos="0.51464844,2.0757446,1.0792694" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" LodRatio="100" ViewDistRatio="2" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+   <Properties bActive="1" Radius="4.02" _nVersion="0">
+    <Color clrDiffuse="0.436813,0.493616,0.68002" fDiffuseMultiplier="3.1" fHDRDynamic="0" fSpecularMultiplier="0.1"/>
+    <Options bAffectsThisAreaOnly="0" bAmbientLight="0" bCastShadow="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDisableX360Opto="0" bFakeLight="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" nPostEffect="0" fShadowBias="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+    <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+    <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaIntensity="1" fCoronaScale="1" nCoronaShaftsMinSpec="3" nLensGhostsMinSpec="3" lightanimation_LightAnimation="" nLightStyle="0" fShaftBlendFactor="10" fShaftBrightness="10" fShaftDecayFactor="88" fShaftLength="95" fShaftSrcSize="19" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0">
+     <Rotation x="0" y="0" z="0"/>
+    </Style>
+   </Properties>
+  </Object>
+  <Object Prototype="{A7CAA29D-5FF2-41F5-AF16-DC6405A431B6}" Type="EntityArchetype" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{A32369B3-8462-44C0-8A7E-1B645C674D16}" Name="Lights.Mine_Lamp12" Parent="{19A56C6C-978C-476F-8117-706BE4DF9E00}" Pos="-0.33435059,0.046264648,5.0558319" FloorNumber="-1" Rotate="0.88294756,0,0,-0.46947157" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0">
+   <Properties2 bTurnedOn="1">
+    <LightProperties_Base Radius="3" bUseThisLight="1" _nVersion="0">
+     <Color clrDiffuse="0.907547,0.812241,0.45908" fDiffuseMultiplier="0.9" fHDRDynamic="0" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAmbientLight="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="1" bFakeLight="0" nGlowSubmatId="0" bIgnoreGeomCaster="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" nPostEffect="0" fShadowBias="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1" nViewDistRatio="100"/>
+     <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0">
+      <Rotation x="0" y="0" z="0"/>
+     </Style>
+     <Test bFillLight="0"/>
+     <vDirection x="0" y="1" z="0"/>
+     <vOffset x="0" y="0" z="0"/>
+    </LightProperties_Base>
+    <LightProperties_Destroyed Radius="10" bUseThisLight="0" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fHDRDynamic="0" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAmbientLight="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="0" bDisableX360Opto="0" bFakeLight="0" nGlowSubmatId="0" bIgnoreGeomCaster="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" nPostEffect="0" fShadowBias="1" fShadowSlopeBias="1" nViewDistRatio="100"/>
+     <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0">
+      <Rotation x="0" y="0" z="0"/>
+     </Style>
+     <Test bFillLight="0"/>
+     <vDirection x="0" y="1" z="0"/>
+     <vOffset x="0" y="0" z="0"/>
+    </LightProperties_Destroyed>
+   </Properties2>
+  </Object>
+  <Object Prototype="{A7CAA29D-5FF2-41F5-AF16-DC6405A431B6}" Type="EntityArchetype" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{DA666801-D956-4087-BD3A-2D1C9496ADF1}" Name="Lights.Mine_Lamp13" Parent="{19A56C6C-978C-476F-8117-706BE4DF9E00}" Pos="-0.27926636,0.038085938,-0.22906494" FloorNumber="-1" Rotate="0.98480779,0,0,-0.17364815" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0">
+   <Properties2 bTurnedOn="1">
+    <LightProperties_Base Radius="3" bUseThisLight="1" _nVersion="0">
+     <Color clrDiffuse="0.907547,0.812241,0.45908" fDiffuseMultiplier="0.9" fHDRDynamic="0" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAmbientLight="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="1" bFakeLight="0" nGlowSubmatId="0" bIgnoreGeomCaster="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" nPostEffect="0" fShadowBias="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1" nViewDistRatio="100"/>
+     <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0">
+      <Rotation x="0" y="0" z="0"/>
+     </Style>
+     <Test bFillLight="0"/>
+     <vDirection x="0" y="1" z="0"/>
+     <vOffset x="0" y="0" z="0"/>
+    </LightProperties_Base>
+    <LightProperties_Destroyed Radius="10" bUseThisLight="0" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fHDRDynamic="0" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAmbientLight="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="0" bDisableX360Opto="0" bFakeLight="0" nGlowSubmatId="0" bIgnoreGeomCaster="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" nPostEffect="0" fShadowBias="1" fShadowSlopeBias="1" nViewDistRatio="100"/>
+     <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0">
+      <Rotation x="0" y="0" z="0"/>
+     </Style>
+     <Test bFillLight="0"/>
+     <vDirection x="0" y="1" z="0"/>
+     <vOffset x="0" y="0" z="0"/>
+    </LightProperties_Destroyed>
+   </Properties2>
+  </Object>
+  <Object Type="Entity" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{488233CB-AC33-4F36-98AB-04F381E69D33}" Name="Light78" Parent="{19A56C6C-978C-476F-8117-706BE4DF9E00}" Pos="0.83010864,0.42419434,10.915466" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" LodRatio="100" ViewDistRatio="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+   <Properties bActive="1" Radius="2.97" _nVersion="0">
+    <Color clrDiffuse="0.774227,0.573159,0.368591" fDiffuseMultiplier="7.6" fHDRDynamic="0" fSpecularMultiplier="1"/>
+    <Options bAffectsThisAreaOnly="1" bAmbientLight="0" bCastShadow="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDisableX360Opto="0" bFakeLight="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" nPostEffect="0" fShadowBias="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+    <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+    <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaIntensity="1" fCoronaScale="1" nCoronaShaftsMinSpec="3" nLensGhostsMinSpec="3" lightanimation_LightAnimation="" nLightStyle="0" fShaftBlendFactor="10" fShaftBrightness="10" fShaftDecayFactor="88" fShaftLength="95" fShaftSrcSize="19" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0">
+     <Rotation x="0" y="0" z="0"/>
+    </Style>
+   </Properties>
+  </Object>
+  <Object Type="Entity" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{6E63D775-D559-4F25-A22A-50D215B2DEFC}" Name="Light14" Parent="{19A56C6C-978C-476F-8117-706BE4DF9E00}" Pos="-0.46862793,0.30487061,-2.2270508" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" LodRatio="100" ViewDistRatio="2" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+   <Properties bActive="1" Radius="10" _nVersion="0">
+    <Color clrDiffuse="0.632043,0.573159,0.476177" fDiffuseMultiplier="1" fHDRDynamic="0" fSpecularMultiplier="1"/>
+    <Options bAffectsThisAreaOnly="0" bAmbientLight="0" bCastShadow="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDisableX360Opto="0" bFakeLight="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" nPostEffect="0" fShadowBias="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+    <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+    <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaIntensity="1" fCoronaScale="1" nCoronaShaftsMinSpec="3" nLensGhostsMinSpec="3" lightanimation_LightAnimation="" nLightStyle="0" fShaftBlendFactor="10" fShaftBrightness="10" fShaftDecayFactor="88" fShaftLength="95" fShaftSrcSize="19" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0">
+     <Rotation x="0" y="0" z="0"/>
+    </Style>
+   </Properties>
+  </Object>
+  <Object Prototype="{A7CAA29D-5FF2-41F5-AF16-DC6405A431B6}" Type="EntityArchetype" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{7F22D5D7-2190-4BDB-A9D2-04D41AA0FD20}" Name="Lights.Mine_Lamp14" Parent="{19A56C6C-978C-476F-8117-706BE4DF9E00}" Pos="-0.23852539,0.0092773438,-5.6160889" FloorNumber="-1" Rotate="0.97437006,0,0,-0.22495106" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0">
+   <Properties2 bTurnedOn="1">
+    <LightProperties_Base Radius="3" bUseThisLight="1" _nVersion="0">
+     <Color clrDiffuse="0.907547,0.812241,0.45908" fDiffuseMultiplier="0.9" fHDRDynamic="0" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAmbientLight="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="1" bFakeLight="0" nGlowSubmatId="0" bIgnoreGeomCaster="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" nPostEffect="0" fShadowBias="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1" nViewDistRatio="100"/>
+     <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0">
+      <Rotation x="0" y="0" z="0"/>
+     </Style>
+     <Test bFillLight="0"/>
+     <vDirection x="0" y="1" z="0"/>
+     <vOffset x="0" y="0" z="0"/>
+    </LightProperties_Base>
+    <LightProperties_Destroyed Radius="10" bUseThisLight="0" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fHDRDynamic="0" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAmbientLight="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="0" bDisableX360Opto="0" bFakeLight="0" nGlowSubmatId="0" bIgnoreGeomCaster="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" nPostEffect="0" fShadowBias="1" fShadowSlopeBias="1" nViewDistRatio="100"/>
+     <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0">
+      <Rotation x="0" y="0" z="0"/>
+     </Style>
+     <Test bFillLight="0"/>
+     <vDirection x="0" y="1" z="0"/>
+     <vOffset x="0" y="0" z="0"/>
+    </LightProperties_Destroyed>
+   </Properties2>
+  </Object>
+  <Object Type="Entity" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{8BA81628-40F5-45A7-A102-108C7DB84051}" Name="Light73" Parent="{19A56C6C-978C-476F-8117-706BE4DF9E00}" Pos="-0.29870605,-0.033508301,4.5836792" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" LodRatio="100" ViewDistRatio="2" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+   <Properties bActive="1" Radius="4.02" _nVersion="0">
+    <Color clrDiffuse="0.88318,0.579547,0.302126" fDiffuseMultiplier="1.1" fHDRDynamic="0" fSpecularMultiplier="1"/>
+    <Options bAffectsThisAreaOnly="0" bAmbientLight="0" bCastShadow="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDisableX360Opto="0" bFakeLight="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" nPostEffect="0" fShadowBias="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+    <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+    <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaIntensity="1" fCoronaScale="1" nCoronaShaftsMinSpec="3" nLensGhostsMinSpec="3" lightanimation_LightAnimation="" nLightStyle="0" fShaftBlendFactor="10" fShaftBrightness="10" fShaftDecayFactor="88" fShaftLength="95" fShaftSrcSize="19" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0">
+     <Rotation x="0" y="0" z="0"/>
+    </Style>
+   </Properties>
+  </Object>
+  <Object Type="Entity" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{73BF6CC1-4F8A-49D8-A112-3621F3DF9880}" Name="Light77" Parent="{19A56C6C-978C-476F-8117-706BE4DF9E00}" Pos="0.45892334,-1.161438,6.5089264" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" LodRatio="100" ViewDistRatio="2" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+   <Properties bActive="1" Radius="2.97" _nVersion="0">
+    <Color clrDiffuse="0.368591,0.45908,0.774227" fDiffuseMultiplier="0.3" fHDRDynamic="0" fSpecularMultiplier="0.3"/>
+    <Options bAffectsThisAreaOnly="0" bAmbientLight="0" bCastShadow="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDisableX360Opto="0" bFakeLight="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" nPostEffect="0" fShadowBias="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+    <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+    <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaIntensity="1" fCoronaScale="1" nCoronaShaftsMinSpec="3" nLensGhostsMinSpec="3" lightanimation_LightAnimation="" nLightStyle="0" fShaftBlendFactor="10" fShaftBrightness="10" fShaftDecayFactor="88" fShaftLength="95" fShaftSrcSize="19" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0">
+     <Rotation x="0" y="0" z="0"/>
+    </Style>
+   </Properties>
+  </Object>
+  <Object Prototype="{A7CAA29D-5FF2-41F5-AF16-DC6405A431B6}" Type="EntityArchetype" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{70ED6DE0-6928-4FF6-93B5-C6922125FBCC}" Name="Lights.Mine_Lamp11" Parent="{19A56C6C-978C-476F-8117-706BE4DF9E00}" Pos="-0.4944458,-0.0025634766,8.8777466" FloorNumber="-1" Rotate="0.88294756,0,0,-0.46947157" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0">
+   <Properties2 bTurnedOn="1">
+    <LightProperties_Base Radius="3" bUseThisLight="1" _nVersion="0">
+     <Color clrDiffuse="0.907547,0.812241,0.45908" fDiffuseMultiplier="0.9" fHDRDynamic="0" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAmbientLight="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="1" bFakeLight="0" nGlowSubmatId="0" bIgnoreGeomCaster="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" nPostEffect="0" fShadowBias="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1" nViewDistRatio="100"/>
+     <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0">
+      <Rotation x="0" y="0" z="0"/>
+     </Style>
+     <Test bFillLight="0"/>
+     <vDirection x="0" y="1" z="0"/>
+     <vOffset x="0" y="0" z="0"/>
+    </LightProperties_Base>
+    <LightProperties_Destroyed Radius="10" bUseThisLight="0" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fHDRDynamic="0" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAmbientLight="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="0" bDisableX360Opto="0" bFakeLight="0" nGlowSubmatId="0" bIgnoreGeomCaster="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" nPostEffect="0" fShadowBias="1" fShadowSlopeBias="1" nViewDistRatio="100"/>
+     <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0">
+      <Rotation x="0" y="0" z="0"/>
+     </Style>
+     <Test bFillLight="0"/>
+     <vDirection x="0" y="1" z="0"/>
+     <vOffset x="0" y="0" z="0"/>
+    </LightProperties_Destroyed>
+   </Properties2>
+  </Object>
+  <Object Type="Brush" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{E41EACA9-BB1E-4975-9A02-4D2D2EF667E0}" Name="lighthouse_interior_level3" Pos="5.7774048,6.7267151,16.156906" FloorNumber="-1" Rotate="0.84804809,0,0,0.52991927" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/structures/buildings/lighthouse/lighthouse_interior_level03.cgf" NoCollision="0" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="1" Hideable="0" LodRatio="250" ViewDistRatio="5" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="536887304"/>
+  <Object Type="Brush" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{12843DDE-3657-4513-A1E4-1D9417E74115}" Name="lighthouse_interior_level01" Pos="5.7724304,6.7291565,5.6166077" FloorNumber="-1" Rotate="0.84804809,0,0,0.52991927" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/structures/buildings/lighthouse/lighthouse_interior_level01.cgf" NoCollision="0" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="250" ViewDistRatio="5" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="536870920"/>
+  <Object Type="Brush" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{C34ABC6E-29FD-43CB-BF33-1E8FF89C5A28}" Name="lighthouse_interior_level02" Pos="5.7774048,6.7267151,10.919617" FloorNumber="-1" Rotate="0.84804809,0,0,0.52991927" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/structures/buildings/lighthouse/lighthouse_interior_level02.cgf" NoCollision="0" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="1" Hideable="0" LodRatio="250" ViewDistRatio="5" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="536887304"/>
+  <Object Type="Brush" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{91757DB4-2292-4BC1-8800-4ADABCE5D027}" Name="lighthouse_b1" Pos="5.7774048,6.7267151,0.08770752" FloorNumber="-1" Rotate="0.84804809,0,0,0.52991927" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/structures/buildings/lighthouse/lighthouse_b.cgf" NoCollision="0" OutdoorOnly="1" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="200" ViewDistRatio="50" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="536872968"/>
+  <Object Type="Brush" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{E2782ABC-A291-44B1-B0E0-38D5FBC2E2F8}" Name="lighthouse_a1" Pos="5.8048706,6.7715759,0.08821106" FloorNumber="-1" Rotate="0.84804809,0,0,0.52991927" ColorRGB="16777215" Material="objects/structures/buildings/lighthouse/lighthouse" MatLayersMask="0" Prefab="objects/structures/buildings/lighthouse/lighthouse_a.cgf" NoCollision="0" OutdoorOnly="1" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="250" ViewDistRatio="50" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="536872968"/>
+  <Object Type="Brush" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{1C6E59A9-7968-457F-AE28-D7BBFE73131F}" Name="lighthouse_interior_base" Pos="5.7945251,6.7772522,0.086685181" FloorNumber="-1" Rotate="0.84804809,0,0,0.52991927" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/structures/buildings/lighthouse/lighthouse_interior_base.cgf" NoCollision="0" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="250" ViewDistRatio="10" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="536870920"/>
+  <Object Type="Brush" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{4D012EC2-413D-48AB-BF2C-7B442EEE54EC}" Name="lighthouse_light1" Pos="5.7694397,6.7155457,21.197388" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" Material="objects/structures/buildings/lighthouse/lighthouse_interior" MatLayersMask="0" Prefab="objects/structures/buildings/lighthouse/lighthouse_light.cgf" NoCollision="0" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="130" ViewDistRatio="100" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="536870920"/>
+  <Object Type="Entity" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{3DE182A9-9B7B-4A77-BF06-A88E10211B0C}" Name="Lighthouse_Top_Door" Pos="6.1549683,8.8448181,18.513" FloorNumber="-1" Rotate="0.85264021,0,0,0.52249855" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Door">
+   <Properties bActivatePortal="0" bLocked="0" fMass="0" fileModel="objects/structures/buildings/lighthouse/metal_door.cgf" soclasses_SmartObjectClass="Door" fUseDistance="2.5">
+    <Rotation fAcceleration="500" sAxis="z" sFrontAxis="x" fRange="90" bRelativeToUser="1" fSpeed="200" fStopTime="0.125"/>
+    <Slide fAcceleration="3" sAxis="x" fRange="0" fSpeed="2" fStopTime="0.5"/>
+    <Sounds fRange="50" soundSoundOnMove="sounds/vehicles:hmmwv:door_open" soundSoundOnStop="" soundSoundOnStopClosed="" fVolume="200"/>
+   </Properties>
+  </Object>
+  <Object Type="Entity" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{F7467223-7194-4D3E-B2EC-2526CF06FB7C}" Name="Lighthouse_Main_Door" Pos="9.1667175,5.7227478,2.5424194" FloorNumber="-1" Rotate="0.84804809,0,0,0.52991927" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="1" CastShadow="1" LodRatio="11" ViewDistRatio="200" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Door">
+   <Properties bActivatePortal="0" bLocked="0" fMass="0" fileModel="objects/structures/buildings/lighthouse/lighthouse_door.cgf" soclasses_SmartObjectClass="Door" fUseDistance="5">
+    <Rotation fAcceleration="500" sAxis="z" sFrontAxis="-y" fRange="90" bRelativeToUser="1" fSpeed="200" fStopTime="0.05"/>
+    <Slide fAcceleration="3" sAxis="x" fRange="0" fSpeed="6" fStopTime="0.2"/>
+    <Sounds fRange="50" soundSoundOnMove="sounds/vehicles:hmmwv:door_open" soundSoundOnStop="" soundSoundOnStopClosed="" fVolume="200"/>
+   </Properties>
+   <FlowGraph Description="" Group="Light_House" enabled="1" MultiPlayer="ClientServer">
+    <Nodes>
+     <Node Id="2" Class="entity:Door" pos="-250,-70,0" flags="0" GraphEntity="0">
+      <Inputs entityId="0" Close="0" Lock="0" Open="0" UnLock="0"/>
+     </Node>
+     <Node Id="13" Class="entity:GeomEntity" pos="130,-60,0" flags="0" EntityGUID="{5D383CD5-52A3-4484-9F12-25BC9532B02A}" EntityGUID_64="448452A35D383CD5">
+      <Inputs entityId="0" Hide="1" MakeInvulnerable="0" MakeVulnerable="0" Remove="0" ResetHealth="0" UnHide="0"/>
+     </Node>
+     <Node Id="15" Class="Time:Delay" pos="-30,100,0" flags="0">
+      <Inputs delay="0.7"/>
+     </Node>
+     <Node Id="24" Class="Engine:PortalSwitch" pos="360,-10,0" flags="0" EntityGUID="{E649C64D-098C-4E78-B43E-D229B3E61406}" EntityGUID_64="4E78098CE649C64D">
+      <Inputs entityId="0"/>
+     </Node>
+     <Node Id="26" Class="Time:Delay" pos="-230,80,0" flags="0">
+      <Inputs delay="1.3"/>
+     </Node>
+     <Node Id="32" Class="entity:Door" pos="-290,300,0" flags="0" EntityGUID="{3DE182A9-9B7B-4A77-BF06-A88E10211B0C}" EntityGUID_64="4A779B7B3DE182A9">
+      <Inputs entityId="0" Close="0" Lock="0" Open="0" UnLock="0"/>
+     </Node>
+     <Node Id="35" Class="Engine:PortalSwitch" pos="-30,310,0" flags="0" EntityGUID="{680F95B9-0156-4871-ADC9-883104DB1105}" EntityGUID_64="48710156680F95B9">
+      <Inputs entityId="0"/>
+     </Node>
+     <Node Id="36" Class="Time:Delay" pos="-270,450,0" flags="0">
+      <Inputs delay="1.3"/>
+     </Node>
+     <Node Id="37" Class="Engine:PortalSwitch" pos="-30,390,0" flags="0" EntityGUID="{88B2ADDE-C145-43F3-A066-FBF0CF914F05}" EntityGUID_64="43F3C14588B2ADDE">
+      <Inputs entityId="0"/>
+     </Node>
+     <Node Id="39" Name="Light_House_Doors_Portal_Switching" Class="_commentbox" pos="-300,-107.39062,0" flags="1">
+      <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+      <ResizeBorder X="0" Y="0" Width="823" Height="596"/>
+      <NodeSize Width="823" Height="623.39063"/>
+     </Node>
+    </Nodes>
+    <Edges>
+     <Edge nodeIn="13" nodeOut="2" portIn="Hide" portOut="Open" enabled="1"/>
+     <Edge nodeIn="15" nodeOut="2" portIn="in" portOut="Close" enabled="1"/>
+     <Edge nodeIn="26" nodeOut="2" portIn="in" portOut="Open" enabled="1"/>
+     <Edge nodeIn="24" nodeOut="13" portIn="Activate" portOut="Hide" enabled="1"/>
+     <Edge nodeIn="24" nodeOut="13" portIn="Deactivate" portOut="UnHide" enabled="1"/>
+     <Edge nodeIn="13" nodeOut="15" portIn="UnHide" portOut="out" enabled="1"/>
+     <Edge nodeIn="2" nodeOut="26" portIn="Close" portOut="out" enabled="1"/>
+     <Edge nodeIn="35" nodeOut="32" portIn="Deactivate" portOut="Close" enabled="1"/>
+     <Edge nodeIn="35" nodeOut="32" portIn="Activate" portOut="Open" enabled="1"/>
+     <Edge nodeIn="36" nodeOut="32" portIn="in" portOut="Open" enabled="1"/>
+     <Edge nodeIn="37" nodeOut="32" portIn="Deactivate" portOut="Close" enabled="1"/>
+     <Edge nodeIn="37" nodeOut="32" portIn="Activate" portOut="Open" enabled="1"/>
+     <Edge nodeIn="32" nodeOut="36" portIn="Close" portOut="out" enabled="1"/>
+    </Edges>
+    <GraphTokens />
+   </FlowGraph>
+  </Object>
+  <Object Type="Portal" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{8538CC25-872D-45AA-B53E-E7818D050080}" Name="Portal11" Pos="7.4836731,5.974884,16.197601" FloorNumber="-1" Rotate="0.84804809,0,0,0.52991927" ColorRGB="3996260" Height="0.4" DisplayFilled="1" AmbientColor="0,0,0" AffectedBySun="0" IgnoreSkyColor="1" IgnoreGI="1" ViewDistRatio="100" SkyOnly="0" OceanIsVisible="0" UseDeepness="1" DoubleSide="1" EntityClass="AreaShape">
+   <Points>
+    <Point Pos="0,0,0"/>
+    <Point Pos="-0.12497883,3.875016,0"/>
+    <Point Pos="1.1250005,3.250005,0"/>
+    <Point Pos="1.6249901,0.75000495,0"/>
+   </Points>
+   <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+  </Object>
+  <Object Type="GeomEntity" Layer="AB3_Art" LayerGUID="{E40DE68B-7A2C-4772-924E-2CAFD808917A}" Id="{5D383CD5-52A3-4484-9F12-25BC9532B02A}" Name="static_lighthouse_ door" Pos="9.1036682,5.7534485,2.5424194" FloorNumber="-1" Rotate="0.84339142,0,0,0.53729963" ColorRGB="65535" MatLayersMask="0" Geometry="objects/structures/buildings/lighthouse/lighthouse_door.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+   <Properties esFaction="">
+    <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="0"/>
+    <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+     <vOffset x="0" y="0" z="0"/>
+    </Interest>
+   </Properties>
+  </Object>
+ </Objects>
+</Prefab>

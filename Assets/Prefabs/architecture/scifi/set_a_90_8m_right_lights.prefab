@@ -1,0 +1,50 @@
+<Prefab Name="set_a_90_8m_right_lights" Id="{1BA433C2-C310-4B3A-BCBF-8438C1E42A80}" Library="architecture">
+ <Objects>
+  <Object Type="Brush" Layer="Main" LayerGUID="{51C107EE-D763-4BB8-B97E-D335EBAD8B2F}" Id="{45C8CBB5-C408-4BDF-B167-BDE7790D67C7}" Name="set_a_90_8m_right1" Pos="0,0,0" FloorNumber="-1" Rotate="0.70710683,0,0,0.70710677" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/architecture/scifi/set_a/set_a_90_8m_right.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+   <CollisionFiltering>
+    <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+   </CollisionFiltering>
+  </Object>
+  <Object Type="Entity" Layer="zz_test" LayerGUID="{CE1E9D94-F3BC-4E24-8D8C-3E6A7A3EC997}" Id="{85EF4731-B1D4-49C0-81B7-E94ED1FFC53C}" Name="Light29" Pos="-0.68000031,-4.25,2.375" FloorNumber="-1" Rotate="0.66446304,-0.24184476,0.24184476,0.66446298" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="8" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+   <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="10" _nVersion="0">
+    <Color clrDiffuse="1,1,1" fDiffuseMultiplier="2" fSpecularMultiplier="1"/>
+    <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bDeferredClipBounds="0" bFakeLight="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+    <Projector fProjectorFov="75" fProjectorNearPlane="0" texture_Texture=""/>
+    <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+    <Shape bAreaLight="1" fPlaneHeight="0.1" fPlaneWidth="1" vFadeDimensionsBottom="0" vFadeDimensionsFar="0" vFadeDimensionsLeft="0" vFadeDimensionsNear="0" vFadeDimensionsRight="0" vFadeDimensionsTop="0"/>
+    <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+   </Properties>
+  </Object>
+  <Object Type="Entity" Layer="zz_test" LayerGUID="{CE1E9D94-F3BC-4E24-8D8C-3E6A7A3EC997}" Id="{09136185-C684-4555-B9A0-A1856A415471}" Name="Light22" Pos="2.7900009,-4.25,2.375" FloorNumber="-1" Rotate="0.6644631,-0.24184477,0.24184477,0.66446298" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="8" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+   <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="10" _nVersion="0">
+    <Color clrDiffuse="1,1,1" fDiffuseMultiplier="2" fSpecularMultiplier="1"/>
+    <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bDeferredClipBounds="0" bFakeLight="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+    <Projector fProjectorFov="75" fProjectorNearPlane="0" texture_Texture=""/>
+    <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+    <Shape bAreaLight="1" fPlaneHeight="0.1" fPlaneWidth="1" vFadeDimensionsBottom="0" vFadeDimensionsFar="0" vFadeDimensionsLeft="0" vFadeDimensionsNear="0" vFadeDimensionsRight="0" vFadeDimensionsTop="0"/>
+    <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+   </Properties>
+  </Object>
+  <Object Type="Entity" Layer="zz_test" LayerGUID="{CE1E9D94-F3BC-4E24-8D8C-3E6A7A3EC997}" Id="{C5085436-43B2-4EE0-9EB6-13DD988870CB}" Name="Light27" Pos="2.7900009,-4.125,2.25" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="8" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+   <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="5" _nVersion="0">
+    <Color clrDiffuse="1,1,1" fDiffuseMultiplier="0.5" fSpecularMultiplier="1"/>
+    <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bDeferredClipBounds="0" bFakeLight="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+    <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+    <Shadows nCastShadows="1" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+    <Shape bAreaLight="0" fPlaneHeight="0.1" fPlaneWidth="1" vFadeDimensionsBottom="0" vFadeDimensionsFar="0" vFadeDimensionsLeft="0" vFadeDimensionsNear="0" vFadeDimensionsRight="0" vFadeDimensionsTop="0"/>
+    <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+   </Properties>
+  </Object>
+  <Object Type="Entity" Layer="zz_test" LayerGUID="{CE1E9D94-F3BC-4E24-8D8C-3E6A7A3EC997}" Id="{F83F007C-867C-40D9-AF72-21F32CD49246}" Name="Light28" Pos="-0.68000031,-4.125,2.25" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="8" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+   <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="5" _nVersion="0">
+    <Color clrDiffuse="1,1,1" fDiffuseMultiplier="0.5" fSpecularMultiplier="1"/>
+    <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bDeferredClipBounds="0" bFakeLight="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+    <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+    <Shadows nCastShadows="1" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+    <Shape bAreaLight="0" fPlaneHeight="0.1" fPlaneWidth="1" vFadeDimensionsBottom="0" vFadeDimensionsFar="0" vFadeDimensionsLeft="0" vFadeDimensionsNear="0" vFadeDimensionsRight="0" vFadeDimensionsTop="0"/>
+    <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+   </Properties>
+  </Object>
+ </Objects>
+</Prefab>

@@ -1,0 +1,18 @@
+<Prefab Name="ambient_lightbox" Id="{3E113637-51E8-4B95-9A1C-122FA550C797}" Library="lighting">
+ <Objects>
+  <Object Type="Entity" Layer="Lighting" Id="{4A901AE5-BE76-4488-B74F-D9C33D76E4C5}" Name="AB1_room_a_ambient_light2" Pos="4,4,2" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+   <Properties bActive="1" Radius="10" _nVersion="0">
+    <Color clrDiffuse="1,1,1" fDiffuseMultiplier="5" fHDRDynamic="0" fSpecularMultiplier="1"/>
+    <Options bAffectsThisAreaOnly="1" bAmbientLight="1" bCastShadow="0" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="1" bFakeLight="0" bIgnoresVisAreas="0" bIrradianceVolumes="0" bNegativeLight="0" nPostEffect="0"/>
+    <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+    <Style nAnimationPhase="0" fAnimationSpeed="1" texture_AttenuationMap="" fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0">
+     <Rotation x="0" y="0" z="0"/>
+    </Style>
+   </Properties>
+   <EntityLinks>
+    <Link TargetId="{03C483C1-4671-4A5D-B286-5D84F05F1DD0}" Name="NewLink" RelRot="1,0,0,0" RelPos="0,0,0"/>
+   </EntityLinks>
+  </Object>
+  <Object Type="LightBox" Layer="Lighting" Id="{03C483C1-4671-4A5D-B286-5D84F05F1DD0}" Name="AB1_room_a_lightbox2" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16711680" MatLayersMask="0" OriginAtCorner="1" Width="8" Length="8" Height="5" DisableGI="0" EntityClass="LightBox" BoxMin="0,0,0" BoxMax="8,8,5"/>
+ </Objects>
+</Prefab>

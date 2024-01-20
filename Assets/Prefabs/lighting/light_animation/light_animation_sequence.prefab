@@ -1,0 +1,365 @@
+<Prefab Name="light_animation_sequence" Id="{10E6F18F-17F1-4130-8272-652E0595D49D}" Library="lighting">
+ <Objects>
+  <Object Type="SequenceObject" Layer="Lighting" Id="{EE2AE9D5-6F6E-4018-BDB4-683AD7E3A2A1}" Name="_LightAnimationSet" Pos="1,1,1" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16744319">
+   <Sequence SequenceVersion="2" Name="_LightAnimationSet" Flags="65536" StartTime="0" EndTime="10" ID="73">
+    <Nodes>
+     <Node Id="2" Type="21" Name="fire_big_lightstyle" Flags="3" ParamIdVersion="6" Pos="0,0,0" Rotate="1,0,0,0" Scale="1,1,1" EntityGUID="0" BoneLinkTransformEnabled="0" Radius="10" DiffuseMultiplier="1" DiffuseColor="255,255,255" HDRDynamic="0" SpecularMultiplier="1" SpecularPercentage="100">
+      <Track ParamId="1" Type="4" HasCustomColor="0" ValueType="1">
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0">
+        <Key time="0" value="0,0" flags="82" ds="0.16666666,0" dd="0.16666666,0"/>
+        <Key time="0.49999994" value="0.49999994,0.5" flags="18" ds="0.16666666,0" dd="0.16666669,0"/>
+        <Key time="1" value="1,0" flags="82" ds="0.16666669,0" dd="0.16840021,0"/>
+        <Key time="1.5052006" value="1.5052006,-0.5" flags="18" ds="0.16840021,0" dd="0.16493313,0"/>
+        <Key time="2" value="2,0" flags="18" ds="0.16493313,0" dd="0.16572341,0"/>
+        <Key time="2.4971702" value="2.4971702,-0.5" flags="18" ds="0.16572341,0" dd="0.1673789,0"/>
+        <Key time="2.9993069" value="2.9993069,0" flags="18" ds="0.1673789,0" dd="0.16682625,0"/>
+        <Key time="3.4997857" value="3.4997857,0.5" flags="18" ds="0.16682625,0" dd="0.16737899,0"/>
+        <Key time="4.0019226" value="4.0019226,0" flags="18" ds="0.16737899,0" dd="0.16682625,0"/>
+        <Key time="4.5024014" value="4.5024014,0.5" flags="18" ds="0.16682625,0" dd="0.16527748,0"/>
+        <Key time="4.9982338" value="4.9982338,0" flags="82" ds="0.16527748,0" dd="0.16716322,0"/>
+        <Key time="5.4997234" value="5.4997234,-0.5" flags="18" ds="0.16716322,0" dd="0.16615979,0"/>
+        <Key time="5.9982028" value="5.9982028,0" flags="82" ds="0.16615979,0" dd="0.16716322,0"/>
+        <Key time="6.4996924" value="6.4996924,0.5" flags="18" ds="0.16716322,0" dd="0.16704211,0"/>
+        <Key time="7.0008187" value="7.0008187,0" flags="82" ds="0.16704211,0" dd="0.16716322,0"/>
+        <Key time="7.5023084" value="7.5023084,-0.5" flags="18" ds="0.16716322,0" dd="0.16584826,0"/>
+        <Key time="7.9998531" value="7.9998531,0" flags="82" ds="0.16584826,0" dd="0.16666667,0"/>
+        <Key time="8.4998531" value="8.4998531,0.5" flags="18" ds="0.16666667,0" dd="0.16666667,0"/>
+        <Key time="8.9998531" value="8.9998531,0" flags="82" ds="0.16666667,0" dd="0.16840014,0"/>
+        <Key time="9.5050535" value="9.5050535,-0.5" flags="18" ds="0.16840014,0" dd="0.16498217,0"/>
+        <Key time="10" value="10,0" flags="82" ds="0.16498217,0" dd="0.16498217,0"/>
+       </NewSubTrack>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0">
+        <Key time="0" value="0,0" flags="82" ds="0.16666666,0" dd="0.16666666,0"/>
+        <Key time="0.49999994" value="0.49999994,0.5" flags="18" ds="0.16666666,0" dd="0.16666669,0"/>
+        <Key time="1" value="1,0" flags="82" ds="0.16666669,0" dd="0.16840021,0"/>
+        <Key time="1.5052006" value="1.5052006,-0.5" flags="18" ds="0.16840021,0" dd="0.16493313,0"/>
+        <Key time="2" value="2,0" flags="18" ds="0.16493313,0" dd="0.16572341,0"/>
+        <Key time="2.4971702" value="2.4971702,0.5" flags="18" ds="0.16572341,0" dd="0.1673789,0"/>
+        <Key time="2.9993069" value="2.9993069,0" flags="18" ds="0.1673789,0" dd="0.16682625,0"/>
+        <Key time="3.4997857" value="3.4997857,-0.5" flags="18" ds="0.16682625,0" dd="0.16737899,0"/>
+        <Key time="4.0019226" value="4.0019226,0" flags="18" ds="0.16737899,0" dd="0.16682625,0"/>
+        <Key time="4.5024014" value="4.5024014,-0.5" flags="18" ds="0.16682625,0" dd="0.16527748,0"/>
+        <Key time="4.9982338" value="4.9982338,0" flags="82" ds="0.16527748,0" dd="0.16716322,0"/>
+        <Key time="5.4997234" value="5.4997234,0.5" flags="18" ds="0.16716322,0" dd="0.16615979,0"/>
+        <Key time="5.9982028" value="5.9982028,0" flags="82" ds="0.16615979,0" dd="0.16716322,0"/>
+        <Key time="6.4996924" value="6.4996924,-0.5" flags="18" ds="0.16716322,0" dd="0.16704211,0"/>
+        <Key time="7.0008187" value="7.0008187,0" flags="82" ds="0.16704211,0" dd="0.16716322,0"/>
+        <Key time="7.5023084" value="7.5023084,-0.5" flags="18" ds="0.16716322,0" dd="0.16584826,0"/>
+        <Key time="7.9998531" value="7.9998531,0" flags="82" ds="0.16584826,0" dd="0.16666667,0"/>
+        <Key time="8.4998531" value="8.4998531,0.5" flags="18" ds="0.16666667,0" dd="0.16666667,0"/>
+        <Key time="8.9998531" value="8.9998531,0" flags="82" ds="0.16666667,0" dd="0.16840014,0"/>
+        <Key time="9.5050535" value="9.5050535,-0.5" flags="18" ds="0.16840014,0" dd="0.16498217,0"/>
+        <Key time="10" value="10,0" flags="82" ds="0.16498217,0" dd="0.16498217,0"/>
+       </NewSubTrack>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0">
+        <Key time="0" value="0,0" flags="82" ds="0.16666666,0" dd="0.16666666,0"/>
+        <Key time="0.49999994" value="0.49999994,0.5" flags="18" ds="0.16666666,0" dd="0.16666669,0"/>
+        <Key time="1" value="1,0" flags="82" ds="0.16666669,0" dd="0.16840021,0"/>
+        <Key time="1.5052006" value="1.5052006,-0.5" flags="18" ds="0.16840021,0" dd="0.16493313,0"/>
+        <Key time="2" value="2,0" flags="18" ds="0.16493313,0" dd="0.16572341,0"/>
+        <Key time="2.4971702" value="2.4971702,-0.5" flags="18" ds="0.16572341,0" dd="0.1673789,0"/>
+        <Key time="2.9993069" value="2.9993069,0" flags="18" ds="0.1673789,0" dd="0.16682625,0"/>
+        <Key time="3.4997857" value="3.4997857,0.5" flags="18" ds="0.16682625,0" dd="0.16737899,0"/>
+        <Key time="4.0019226" value="4.0019226,0" flags="18" ds="0.16737899,0" dd="0.16682625,0"/>
+        <Key time="4.5024014" value="4.5024014,-0.5" flags="18" ds="0.16682625,0" dd="0.16527748,0"/>
+        <Key time="4.9982338" value="4.9982338,0" flags="82" ds="0.16527748,0" dd="0.16716322,0"/>
+        <Key time="5.4997234" value="5.4997234,0.5" flags="18" ds="0.16716322,0" dd="0.16615979,0"/>
+        <Key time="5.9982028" value="5.9982028,0" flags="82" ds="0.16615979,0" dd="0.16716322,0"/>
+        <Key time="6.4996924" value="6.4996924,-0.5" flags="18" ds="0.16716322,0" dd="0.16704211,0"/>
+        <Key time="7.0008187" value="7.0008187,0" flags="82" ds="0.16704211,0" dd="0.16716322,0"/>
+        <Key time="7.5023084" value="7.5023084,0.5" flags="18" ds="0.16716322,0" dd="0.16584826,0"/>
+        <Key time="7.9998531" value="7.9998531,0" flags="82" ds="0.16584826,0" dd="0.16666667,0"/>
+        <Key time="8.4998531" value="8.4998531,0.5" flags="18" ds="0.16666667,0" dd="0.16666667,0"/>
+        <Key time="8.9998531" value="8.9998531,0" flags="82" ds="0.16666667,0" dd="0.16840014,0"/>
+        <Key time="9.5050535" value="9.5050535,-0.5" flags="18" ds="0.16840014,0" dd="0.16498217,0"/>
+        <Key time="10" value="10,0" flags="82" ds="0.16498217,0" dd="0.16498217,0"/>
+       </NewSubTrack>
+      </Track>
+      <Track ParamId="2" Type="4" HasCustomColor="0" ValueType="2">
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+      </Track>
+      <Track ParamId="81" Type="4" HasCustomColor="0" ValueType="20">
+       <NewSubTrack Flags="0" defaultValue="0,255" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,255" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,255" HasCustomColor="0"/>
+      </Track>
+      <Track ParamId="85" Type="4" Flags="32" defaultValue="0,10" HasCustomColor="0" ValueType="0"/>
+     </Node>
+     <Node Id="5" Type="21" Name="fire_medium_lightstyle" Flags="3" ParamIdVersion="6" Pos="0,0,0" Rotate="1,0,0,0" Scale="1,1,1" EntityGUID="0" BoneLinkTransformEnabled="0" Radius="10" DiffuseMultiplier="1" DiffuseColor="255,255,255" HDRDynamic="0" SpecularMultiplier="1" SpecularPercentage="100">
+      <Track ParamId="1" Type="4" HasCustomColor="0" ValueType="1">
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0">
+        <Key time="0" value="0,0" flags="18" ds="0.16666666,0" dd="0.16666666,0"/>
+        <Key time="0.49999994" value="0.49999994,0.25" flags="18" ds="0.16666666,0" dd="0.16666669,0"/>
+        <Key time="1" value="1,0" flags="18" ds="0.16666669,0" dd="0.16840021,0"/>
+        <Key time="1.5052006" value="1.5052006,-0.25" flags="18" ds="0.16840021,0" dd="0.16493313,0"/>
+        <Key time="2" value="2,0" flags="18" ds="0.16493313,0" dd="0.16572341,0"/>
+        <Key time="2.4971702" value="2.4971702,-0.25" flags="18" ds="0.16572341,0" dd="0.1673789,0"/>
+        <Key time="2.9993069" value="2.9993069,0" flags="18" ds="0.1673789,0" dd="0.16682625,0"/>
+        <Key time="3.4997857" value="3.4997857,0.25" flags="18" ds="0.16682625,0" dd="0.16737899,0"/>
+        <Key time="4.0019226" value="4.0019226,0" flags="18" ds="0.16737899,0" dd="0.16682625,0"/>
+        <Key time="4.5024014" value="4.5024014,0.25" flags="18" ds="0.16682625,0" dd="0.16527748,0"/>
+        <Key time="4.9982338" value="4.9982338,0" flags="18" ds="0.16527748,0" dd="0.16716322,0"/>
+        <Key time="5.4997234" value="5.4997234,-0.25" flags="18" ds="0.16716322,0" dd="0.16615979,0"/>
+        <Key time="5.9982028" value="5.9982028,0" flags="18" ds="0.16615979,0" dd="0.16716322,0"/>
+        <Key time="6.4996924" value="6.4996924,0.25" flags="18" ds="0.16716322,0" dd="0.16704211,0"/>
+        <Key time="7.0008187" value="7.0008187,0" flags="18" ds="0.16704211,0" dd="0.16716322,0"/>
+        <Key time="7.5023084" value="7.5023084,-0.25" flags="18" ds="0.16716322,0" dd="0.16584826,0"/>
+        <Key time="7.9998531" value="7.9998531,0" flags="18" ds="0.16584826,0" dd="0.16666667,0"/>
+        <Key time="8.4998531" value="8.4998531,0.25" flags="18" ds="0.16666667,0" dd="0.16666667,0"/>
+        <Key time="8.9998531" value="8.9998531,0" flags="18" ds="0.16666667,0" dd="0.16840014,0"/>
+        <Key time="9.5050535" value="9.5050535,-0.25" flags="18" ds="0.16840014,0" dd="0.16498217,0"/>
+        <Key time="10" value="10,0" flags="18" ds="0.16498217,0" dd="0.16498217,0"/>
+       </NewSubTrack>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0">
+        <Key time="0" value="0,0" flags="18" ds="0.16666666,0" dd="0.16666666,0"/>
+        <Key time="0.49999994" value="0.49999994,0.25" flags="18" ds="0.16666666,0" dd="0.16666669,0"/>
+        <Key time="1" value="1,0" flags="18" ds="0.16666669,0" dd="0.16840021,0"/>
+        <Key time="1.5052006" value="1.5052006,-0.25" flags="18" ds="0.16840021,0" dd="0.16493313,0"/>
+        <Key time="2" value="2,0" flags="18" ds="0.16493313,0" dd="0.16572341,0"/>
+        <Key time="2.4971702" value="2.4971702,0.25" flags="18" ds="0.16572341,0" dd="0.1673789,0"/>
+        <Key time="2.9993069" value="2.9993069,0" flags="18" ds="0.1673789,0" dd="0.16682625,0"/>
+        <Key time="3.4997857" value="3.4997857,-0.25" flags="18" ds="0.16682625,0" dd="0.16737899,0"/>
+        <Key time="4.0019226" value="4.0019226,0" flags="18" ds="0.16737899,0" dd="0.16682625,0"/>
+        <Key time="4.5024014" value="4.5024014,-0.25" flags="18" ds="0.16682625,0" dd="0.16527748,0"/>
+        <Key time="4.9982338" value="4.9982338,0" flags="18" ds="0.16527748,0" dd="0.16716322,0"/>
+        <Key time="5.4997234" value="5.4997234,0.25" flags="18" ds="0.16716322,0" dd="0.16615979,0"/>
+        <Key time="5.9982028" value="5.9982028,0" flags="18" ds="0.16615979,0" dd="0.16716322,0"/>
+        <Key time="6.4996924" value="6.4996924,-0.25" flags="18" ds="0.16716322,0" dd="0.16704211,0"/>
+        <Key time="7.0008187" value="7.0008187,0" flags="18" ds="0.16704211,0" dd="0.16716322,0"/>
+        <Key time="7.5023084" value="7.5023084,-0.25" flags="18" ds="0.16716322,0" dd="0.16584826,0"/>
+        <Key time="7.9998531" value="7.9998531,0" flags="18" ds="0.16584826,0" dd="0.16666667,0"/>
+        <Key time="8.4998531" value="8.4998531,0.25" flags="18" ds="0.16666667,0" dd="0.16666667,0"/>
+        <Key time="8.9998531" value="8.9998531,0" flags="18" ds="0.16666667,0" dd="0.16840014,0"/>
+        <Key time="9.5050535" value="9.5050535,-0.25" flags="18" ds="0.16840014,0" dd="0.16498217,0"/>
+        <Key time="10" value="10,0" flags="18" ds="0.16498217,0" dd="0.16498217,0"/>
+       </NewSubTrack>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0">
+        <Key time="0" value="0,0" flags="18" ds="0.16666666,0" dd="0.16666666,0"/>
+        <Key time="0.49999994" value="0.49999994,0.25" flags="18" ds="0.16666666,0" dd="0.16666669,0"/>
+        <Key time="1" value="1,0" flags="18" ds="0.16666669,0" dd="0.16840021,0"/>
+        <Key time="1.5052006" value="1.5052006,-0.25" flags="18" ds="0.16840021,0" dd="0.16493313,0"/>
+        <Key time="2" value="2,0" flags="18" ds="0.16493313,0" dd="0.16572341,0"/>
+        <Key time="2.4971702" value="2.4971702,-0.25" flags="18" ds="0.16572341,0" dd="0.1673789,0"/>
+        <Key time="2.9993069" value="2.9993069,0" flags="18" ds="0.1673789,0" dd="0.16682625,0"/>
+        <Key time="3.4997857" value="3.4997857,0.25" flags="18" ds="0.16682625,0" dd="0.16737899,0"/>
+        <Key time="4.0019226" value="4.0019226,0" flags="18" ds="0.16737899,0" dd="0.16682625,0"/>
+        <Key time="4.5024014" value="4.5024014,-0.25" flags="18" ds="0.16682625,0" dd="0.16527748,0"/>
+        <Key time="4.9982338" value="4.9982338,0" flags="18" ds="0.16527748,0" dd="0.16716322,0"/>
+        <Key time="5.4997234" value="5.4997234,0.25" flags="18" ds="0.16716322,0" dd="0.16615979,0"/>
+        <Key time="5.9982028" value="5.9982028,0" flags="18" ds="0.16615979,0" dd="0.16716322,0"/>
+        <Key time="6.4996924" value="6.4996924,-0.25" flags="18" ds="0.16716322,0" dd="0.16704211,0"/>
+        <Key time="7.0008187" value="7.0008187,0" flags="18" ds="0.16704211,0" dd="0.16716322,0"/>
+        <Key time="7.5023084" value="7.5023084,0.25" flags="18" ds="0.16716322,0" dd="0.16584826,0"/>
+        <Key time="7.9998531" value="7.9998531,0" flags="18" ds="0.16584826,0" dd="0.16666667,0"/>
+        <Key time="8.4998531" value="8.4998531,0.25" flags="18" ds="0.16666667,0" dd="0.16666667,0"/>
+        <Key time="8.9998531" value="8.9998531,0" flags="18" ds="0.16666667,0" dd="0.16840014,0"/>
+        <Key time="9.5050535" value="9.5050535,-0.25" flags="18" ds="0.16840014,0" dd="0.16498217,0"/>
+        <Key time="10" value="10,0" flags="18" ds="0.16498217,0" dd="0.16498217,0"/>
+       </NewSubTrack>
+      </Track>
+      <Track ParamId="2" Type="4" HasCustomColor="0" ValueType="2">
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+      </Track>
+      <Track ParamId="81" Type="4" HasCustomColor="0" ValueType="20">
+       <NewSubTrack Flags="0" defaultValue="0,255" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,255" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,255" HasCustomColor="0"/>
+      </Track>
+      <Track ParamId="85" Type="4" Flags="32" defaultValue="0,10" HasCustomColor="0" ValueType="0"/>
+     </Node>
+     <Node Id="5" Type="21" Name="fire_small_lightstyle" Flags="3" ParamIdVersion="6" Pos="0,0,0" Rotate="1,0,0,0" Scale="1,1,1" EntityGUID="0" BoneLinkTransformEnabled="0" Radius="10" DiffuseMultiplier="1" DiffuseColor="255,255,255" HDRDynamic="0" SpecularMultiplier="1" SpecularPercentage="100">
+      <Track ParamId="1" Type="4" HasCustomColor="0" ValueType="1">
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0">
+        <Key time="0" value="0,0" flags="18" ds="0.16666666,0" dd="0.16666666,0"/>
+        <Key time="0.49999994" value="0.49999994,0.125" flags="18" ds="0.16666666,0" dd="0.16666669,0"/>
+        <Key time="1" value="1,0" flags="18" ds="0.16666669,0" dd="0.16840021,0"/>
+        <Key time="1.5052006" value="1.5052006,-0.125" flags="18" ds="0.16840021,0" dd="0.16493313,0"/>
+        <Key time="2" value="2,0" flags="18" ds="0.16493313,0" dd="0.16572341,0"/>
+        <Key time="2.4971702" value="2.4971702,-0.125" flags="18" ds="0.16572341,0" dd="0.1673789,0"/>
+        <Key time="2.9993069" value="2.9993069,0" flags="18" ds="0.1673789,0" dd="0.16682625,0"/>
+        <Key time="3.4997857" value="3.4997857,0.125" flags="18" ds="0.16682625,0" dd="0.16737899,0"/>
+        <Key time="4.0019226" value="4.0019226,0" flags="18" ds="0.16737899,0" dd="0.16682625,0"/>
+        <Key time="4.5024014" value="4.5024014,0.125" flags="18" ds="0.16682625,0" dd="0.16527748,0"/>
+        <Key time="4.9982338" value="4.9982338,0" flags="18" ds="0.16527748,0" dd="0.16716322,0"/>
+        <Key time="5.4997234" value="5.4997234,-0.125" flags="18" ds="0.16716322,0" dd="0.16615979,0"/>
+        <Key time="5.9982028" value="5.9982028,0" flags="18" ds="0.16615979,0" dd="0.16716322,0"/>
+        <Key time="6.4996924" value="6.4996924,0.125" flags="18" ds="0.16716322,0" dd="0.16704211,0"/>
+        <Key time="7.0008187" value="7.0008187,0" flags="18" ds="0.16704211,0" dd="0.16716322,0"/>
+        <Key time="7.5023084" value="7.5023084,-0.125" flags="18" ds="0.16716322,0" dd="0.16584826,0"/>
+        <Key time="7.9998531" value="7.9998531,0" flags="18" ds="0.16584826,0" dd="0.16666667,0"/>
+        <Key time="8.4998531" value="8.4998531,0.125" flags="18" ds="0.16666667,0" dd="0.16666667,0"/>
+        <Key time="8.9998531" value="8.9998531,0" flags="18" ds="0.16666667,0" dd="0.16840014,0"/>
+        <Key time="9.5050535" value="9.5050535,-0.125" flags="18" ds="0.16840014,0" dd="0.16498217,0"/>
+        <Key time="10" value="10,0" flags="18" ds="0.16498217,0" dd="0.16498217,0"/>
+       </NewSubTrack>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0">
+        <Key time="0" value="0,0" flags="18" ds="0.16666666,0" dd="0.16666666,0"/>
+        <Key time="0.49999994" value="0.49999994,0.125" flags="18" ds="0.16666666,0" dd="0.16666669,0"/>
+        <Key time="1" value="1,0" flags="18" ds="0.16666669,0" dd="0.16840021,0"/>
+        <Key time="1.5052006" value="1.5052006,-0.125" flags="18" ds="0.16840021,0" dd="0.16493313,0"/>
+        <Key time="2" value="2,0" flags="18" ds="0.16493313,0" dd="0.16572341,0"/>
+        <Key time="2.4971702" value="2.4971702,0.125" flags="18" ds="0.16572341,0" dd="0.1673789,0"/>
+        <Key time="2.9993069" value="2.9993069,0" flags="18" ds="0.1673789,0" dd="0.16682625,0"/>
+        <Key time="3.4997857" value="3.4997857,-0.125" flags="18" ds="0.16682625,0" dd="0.16737899,0"/>
+        <Key time="4.0019226" value="4.0019226,0" flags="18" ds="0.16737899,0" dd="0.16682625,0"/>
+        <Key time="4.5024014" value="4.5024014,-0.125" flags="18" ds="0.16682625,0" dd="0.16527748,0"/>
+        <Key time="4.9982338" value="4.9982338,0" flags="18" ds="0.16527748,0" dd="0.16716322,0"/>
+        <Key time="5.4997234" value="5.4997234,0.125" flags="18" ds="0.16716322,0" dd="0.16615979,0"/>
+        <Key time="5.9982028" value="5.9982028,0" flags="18" ds="0.16615979,0" dd="0.16716322,0"/>
+        <Key time="6.4996924" value="6.4996924,-0.125" flags="18" ds="0.16716322,0" dd="0.16704211,0"/>
+        <Key time="7.0008187" value="7.0008187,0" flags="18" ds="0.16704211,0" dd="0.16716322,0"/>
+        <Key time="7.5023084" value="7.5023084,-0.125" flags="18" ds="0.16716322,0" dd="0.16584826,0"/>
+        <Key time="7.9998531" value="7.9998531,0" flags="18" ds="0.16584826,0" dd="0.16666667,0"/>
+        <Key time="8.4998531" value="8.4998531,0.125" flags="18" ds="0.16666667,0" dd="0.16666667,0"/>
+        <Key time="8.9998531" value="8.9998531,0" flags="18" ds="0.16666667,0" dd="0.16840014,0"/>
+        <Key time="9.5050535" value="9.5050535,-0.125" flags="18" ds="0.16840014,0" dd="0.16498217,0"/>
+        <Key time="10" value="10,0" flags="18" ds="0.16498217,0" dd="0.16498217,0"/>
+       </NewSubTrack>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0">
+        <Key time="0" value="0,0" flags="18" ds="0.16666666,0" dd="0.16666666,0"/>
+        <Key time="0.49999994" value="0.49999994,0.125" flags="18" ds="0.16666666,0" dd="0.16666669,0"/>
+        <Key time="1" value="1,0" flags="18" ds="0.16666669,0" dd="0.16840021,0"/>
+        <Key time="1.5052006" value="1.5052006,-0.125" flags="18" ds="0.16840021,0" dd="0.16493313,0"/>
+        <Key time="2" value="2,0" flags="18" ds="0.16493313,0" dd="0.16572341,0"/>
+        <Key time="2.4971702" value="2.4971702,-0.125" flags="18" ds="0.16572341,0" dd="0.1673789,0"/>
+        <Key time="2.9993069" value="2.9993069,0" flags="18" ds="0.1673789,0" dd="0.16682625,0"/>
+        <Key time="3.4997857" value="3.4997857,0.125" flags="18" ds="0.16682625,0" dd="0.16737899,0"/>
+        <Key time="4.0019226" value="4.0019226,0" flags="18" ds="0.16737899,0" dd="0.16682625,0"/>
+        <Key time="4.5024014" value="4.5024014,-0.125" flags="18" ds="0.16682625,0" dd="0.16527748,0"/>
+        <Key time="4.9982338" value="4.9982338,0" flags="18" ds="0.16527748,0" dd="0.16716322,0"/>
+        <Key time="5.4997234" value="5.4997234,0.125" flags="18" ds="0.16716322,0" dd="0.16615979,0"/>
+        <Key time="5.9982028" value="5.9982028,0" flags="18" ds="0.16615979,0" dd="0.16716322,0"/>
+        <Key time="6.4996924" value="6.4996924,-0.125" flags="18" ds="0.16716322,0" dd="0.16704211,0"/>
+        <Key time="7.0008187" value="7.0008187,0" flags="18" ds="0.16704211,0" dd="0.16716322,0"/>
+        <Key time="7.5023084" value="7.5023084,0.125" flags="18" ds="0.16716322,0" dd="0.16584826,0"/>
+        <Key time="7.9998531" value="7.9998531,0" flags="18" ds="0.16584826,0" dd="0.16666667,0"/>
+        <Key time="8.4998531" value="8.4998531,0.125" flags="18" ds="0.16666667,0" dd="0.16666667,0"/>
+        <Key time="8.9998531" value="8.9998531,0" flags="18" ds="0.16666667,0" dd="0.16840014,0"/>
+        <Key time="9.5050535" value="9.5050535,-0.125" flags="18" ds="0.16840014,0" dd="0.16498217,0"/>
+        <Key time="10" value="10,0" flags="18" ds="0.16498217,0" dd="0.16498217,0"/>
+       </NewSubTrack>
+      </Track>
+      <Track ParamId="2" Type="4" HasCustomColor="0" ValueType="2">
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+      </Track>
+      <Track ParamId="81" Type="4" HasCustomColor="0" ValueType="20">
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+      </Track>
+      <Track ParamId="85" Type="4" Flags="32" defaultValue="0,10" HasCustomColor="0" ValueType="0"/>
+     </Node>
+     <Node Id="6" Type="21" Name="z_rotation_lightstyle" Flags="3" ParamIdVersion="6" Pos="0,0,0" Rotate="1,0,0,0" Scale="1,1,1" EntityGUID="0" BoneLinkTransformEnabled="0" Radius="10" DiffuseMultiplier="1" DiffuseColor="255,255,255" HDRDynamic="0" SpecularMultiplier="1" SpecularPercentage="100">
+      <Track ParamId="1" Type="4" HasCustomColor="0" ValueType="1">
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+      </Track>
+      <Track ParamId="2" Type="4" HasCustomColor="0" ValueType="2">
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0">
+        <Key time="0" value="0,0" flags="100" ds="0,0" dd="0.33333334,30"/>
+        <Key time="1" value="1,90" flags="100" ds="0.33333334,30" dd="0.33333334,30"/>
+        <Key time="2" value="2,180" flags="100" ds="0.33333334,30" dd="0.33333334,30"/>
+        <Key time="3" value="3,270" flags="100" ds="0.33333334,30" dd="0.33155441,30"/>
+        <Key time="3.9946632" value="3.9946632,360" flags="100" ds="0.33155441,30" dd="0,0"/>
+       </NewSubTrack>
+      </Track>
+      <Track ParamId="81" Type="4" HasCustomColor="0" ValueType="20">
+       <NewSubTrack Flags="0" defaultValue="0,255" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,255" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,255" HasCustomColor="0"/>
+      </Track>
+      <Track ParamId="85" Type="4" Flags="0" defaultValue="0,10" HasCustomColor="0" ValueType="0"/>
+     </Node>
+     <Node Id="7" Type="21" Name="dappled_lightstyle" Flags="3" ParamIdVersion="6" Pos="0,0,0" Rotate="1,0,0,0" Scale="1,1,1" EntityGUID="0" BoneLinkTransformEnabled="0" Radius="10" DiffuseMultiplier="1" DiffuseColor="255,255,255" HDRDynamic="0" SpecularMultiplier="1" SpecularPercentage="100">
+      <Track ParamId="1" Type="4" HasCustomColor="0" ValueType="1">
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0">
+        <Key time="0" value="0,0" flags="73" ds="1,0" dd="1,0"/>
+        <Key time="2" value="2,0.5" flags="73" ds="0.66666669,0" dd="0.66666669,0"/>
+        <Key time="4" value="4,0" flags="73" ds="0.66666669,0" dd="0.66666669,0"/>
+       </NewSubTrack>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0">
+        <Key time="0" value="0,0" flags="82" ds="0.66666669,0" dd="0.66666669,0"/>
+        <Key time="2" value="2,0.25" flags="82" ds="0.66666669,0" dd="0.66666669,0"/>
+        <Key time="4" value="4,0" flags="82" ds="0.66666669,0" dd="0.66666669,0"/>
+       </NewSubTrack>
+      </Track>
+      <Track ParamId="2" Type="4" HasCustomColor="0" ValueType="2">
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0">
+        <Key time="0" value="0,0" flags="73" ds="1,0" dd="1,0"/>
+        <Key time="2" value="2,2" flags="73" ds="0.66666669,0" dd="0.66666669,0"/>
+        <Key time="4" value="4,0" flags="73" ds="0.66666669,0" dd="0.66666669,0"/>
+       </NewSubTrack>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+      </Track>
+     </Node>
+     <Node Id="8" Type="21" Name="flickering_smooth_slow_lightstyle" Flags="3" ParamIdVersion="6" Pos="0,0,0" Rotate="1,0,0,0" Scale="1,1,1" EntityGUID="0" BoneLinkTransformEnabled="0" Radius="10" DiffuseMultiplier="1" DiffuseColor="255,255,255" HDRDynamic="0" SpecularMultiplier="1" SpecularPercentage="100">
+      <Track ParamId="86" Type="4" Flags="0" defaultValue="0,1" HasCustomColor="0" ValueType="0">
+       <Key time="0" value="0,1" flags="80" ds="0,0" dd="0.041666668,0"/>
+       <Key time="0.125" value="0.125,0.89999998" flags="64" ds="0.041666668,0.024999997" dd="0.041666668,0.024999997"/>
+       <Key time="0.25" value="0.25,1.15" flags="64" ds="0.041666668,0.016666671" dd="0.041666668,0.016666671"/>
+       <Key time="0.375" value="0.375,1" flags="64" ds="0.041666668,-0.049958467" dd="0.041666668,-0.049958467"/>
+       <Key time="0.5" value="0.5,0.85024917" flags="64" ds="0.041666668,0.016666671" dd="0.041666668,0.016666671"/>
+       <Key time="0.625" value="0.625,1.1" flags="64" ds="0.041666668,-0.016708195" dd="0.041666668,-0.016708195"/>
+       <Key time="0.75" value="0.75,0.75" flags="64" ds="0.041666668,-0.016666671" dd="0.041666668,-0.016666671"/>
+       <Key time="0.875" value="0.875,1" flags="64" ds="0.041666668,0.024999997" dd="0.041666668,0.024999997"/>
+       <Key time="1" value="1,0.89999998" flags="64" ds="0.041666668,0.024999997" dd="0.041666668,0.024999997"/>
+       <Key time="1.125" value="1.125,1.15" flags="64" ds="0.041666668,0.0083333356" dd="0.041666668,0.0083333356"/>
+       <Key time="1.25" value="1.25,0.94999999" flags="64" ds="0.041666668,-0.024999997" dd="0.041666668,-0.024999997"/>
+       <Key time="1.375" value="1.375,1" flags="64" ds="0.041666668,-0.0083333356" dd="0.041666668,-0.0083333356"/>
+       <Key time="1.5" value="1.5,0.89999998" flags="64" ds="0.041666668,0" dd="0.041666668,0"/>
+       <Key time="1.625" value="1.625,1" flags="66" ds="0.041666668,0" dd="0,0"/>
+      </Track>
+     </Node>
+     <Node Id="9" Type="21" Name="flickering_hard_fast_lightstyle" Flags="3" ParamIdVersion="6" Pos="0,0,0" Rotate="1,0,0,0" Scale="1,1,1" EntityGUID="0" BoneLinkTransformEnabled="0" Radius="10" DiffuseMultiplier="1" DiffuseColor="255,255,255" HDRDynamic="0" SpecularMultiplier="1" SpecularPercentage="100">
+      <Track ParamId="1" Type="4" HasCustomColor="0" ValueType="1">
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+      </Track>
+      <Track ParamId="2" Type="4" HasCustomColor="0" ValueType="2">
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+      </Track>
+      <Track ParamId="81" Type="4" HasCustomColor="0" ValueType="20">
+       <NewSubTrack Flags="0" defaultValue="0,255" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,255" HasCustomColor="0"/>
+       <NewSubTrack Flags="0" defaultValue="0,255" HasCustomColor="0"/>
+      </Track>
+      <Track ParamId="85" Type="4" Flags="32" defaultValue="0,10" HasCustomColor="0" ValueType="0"/>
+      <Track ParamId="86" Type="4" Flags="64" defaultValue="0,1" HasCustomColor="0" ValueType="0">
+       <Key time="0" value="0,1" flags="16" ds="0,0" dd="0.041666668,0"/>
+       <Key time="0.125" value="0.125,0.75" ds="0.041666668,0.066666663" dd="0.041666668,0.066666663"/>
+       <Key time="0.25" value="0.25,1.4" ds="0.041666668,0.041666668" dd="0.041666668,0.041666668"/>
+       <Key time="0.375" value="0.375,1" ds="0.041666668,-0.10833333" dd="0.041666668,-0.10833333"/>
+       <Key time="0.5" value="0.5,0.75" ds="0.041666668,0.049999993" dd="0.041666668,0.049999993"/>
+       <Key time="0.625" value="0.625,1.3" ds="0.041666668,-0.024999997" dd="0.041666668,-0.024999997"/>
+       <Key time="0.75" value="0.75,0.60000002" ds="0.041666668,-0.049999993" dd="0.041666668,-0.049999993"/>
+       <Key time="0.875" value="0.875,1" ds="0.041666668,0.033333331" dd="0.041666668,0.033333331"/>
+       <Key time="1" value="1,0.80000001" ds="0.041666668,0.066666663" dd="0.041666668,0.066666663"/>
+       <Key time="1.125" value="1.125,1.4" ds="0.041666668,-0.0083333356" dd="0.041666668,-0.0083333356"/>
+       <Key time="1.25" value="1.25,0.75" ds="0.041666668,-0.066666663" dd="0.041666668,-0.066666663"/>
+       <Key time="1.375" value="1.375,1" ds="0.041666668,-0.0083333356" dd="0.041666668,-0.0083333356"/>
+       <Key time="1.5" value="1.5,0.69999999" ds="0.041666668,0" dd="0.041666668,0"/>
+       <Key time="1.625" value="1.625,1" flags="2" ds="0.041666668,0" dd="0,0"/>
+      </Track>
+     </Node>
+    </Nodes>
+    <Events />
+   </Sequence>
+   <ZoomScrollSettings dopeSheetZoom="40.564896" dopeSheetHScroll="-16" nodesListVScroll="0" curveEditorZoom="80.099998,126.36363" curveEditorScroll="0,-1.1"/>
+   <ID value="73"/>
+  </Object>
+ </Objects>
+</Prefab>

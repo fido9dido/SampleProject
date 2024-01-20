@@ -1,0 +1,36 @@
+<PrefabsLibrary Name="HUD">
+ <Prefab Name="HUD.HUD_3D" Id="{1BFFB906-3AE4-4240-B1F5-485EA8628AEC}" Library="HUD">
+  <Objects>
+   <Object Type="Entity" Layer="Main" Id="{CC65EBEF-D541-4544-81F9-F6B64FF10763}" Name="HUD_Missionmessage" Pos="-0.637146,0.47949219,0.14700317" FloorNumber="-1" Rotate="0.92399603,0,0.38240203,0" Scale="0.25377896,0.25377876,0.25377885" ColorRGB="65535" Material="Materials/hud/HUD3D" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="UIEntity">
+    <Properties object_Model="objects/hud/hud_plane_i.cgf" soclasses_SmartObjectClass=""/>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{D5CD93DD-26A5-443D-A123-40735BAFA9CA}" Name="HUD_MPMessages" Pos="-0.61010742,0.25860596,0" FloorNumber="-1" Rotate="-0.27059802,0.27059811,0.65328145,0.65328151" Scale="0.25,0.25,0.25" ColorRGB="65535" Material="Materials/hud/HUD3D" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="UIEntity">
+    <Properties object_Model="objects/hud/hud_plane_d.cgf" soclasses_SmartObjectClass=""/>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{BCA97FDD-7A05-4940-A984-9DCCAA779472}" Name="HUD_Message" Pos="-0.00073242188,0.13772583,0.021118164" FloorNumber="-1" Rotate="-3.0908623e-008,-3.0908623e-008,0.70710677,0.70710677" Scale="0.25,0.25,0.25" ColorRGB="65535" Material="Materials/hud/HUD3D" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="UIEntity">
+    <Properties object_Model="objects/hud/hud_plane_g.cgf" soclasses_SmartObjectClass=""/>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{B223FC94-6C1F-4123-ADE6-DA4F2DC6B99F}" Name="HUD_Warning" Pos="-0.00079345703,-0.16516113,-0.0021057129" FloorNumber="-1" Rotate="3.0908623e-008,3.0908623e-008,0.70710677,0.70710677" Scale="0.25,0.25,0.25" ColorRGB="65535" Material="Materials/hud/HUD3D" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="UIEntity">
+    <Properties object_Model="objects/hud/hud_plane_f.cgf" soclasses_SmartObjectClass=""/>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{44E459E5-4A9F-4E03-8960-332378A8216F}" Name="HUD_Video" Pos="-0.64935303,0.25860596,0" FloorNumber="-1" Rotate="-0.27059802,0.27059811,0.65328145,0.65328151" Scale="0.25,0.25,0.25" ColorRGB="65535" Material="Materials/hud/HUD3D" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="UIEntity">
+    <Properties object_Model="objects/hud/hud_plane_a.cgf" soclasses_SmartObjectClass=""/>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{3AB6DA3E-32D5-4F20-9F17-7BAAFB4096E7}" Name="HUD_HealthAmmo" Pos="0.69006348,-0.27630615,0" FloorNumber="-1" Rotate="0.27059811,-0.27059802,0.65328151,0.65328145" Scale="0.20999999,0.20999999,0.20999999" ColorRGB="65535" Material="Materials/hud/HUD3D" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="UIEntity">
+    <Properties object_Model="objects/hud/hud_plane_e.cgf" soclasses_SmartObjectClass=""/>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{DBB4D694-2184-44D5-85FE-FE8ABF2CBC18}" Name="HUD_Radar" Pos="-0.64196777,-0.26870728,0.00021362305" FloorNumber="-1" Rotate="-0.27059805,0.27059811,0.65328151,0.65328145" Scale="0.31999999,0.31999999,0.31999999" ColorRGB="65535" Material="Materials/hud/HUD3D" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="UIEntity">
+    <Properties object_Model="objects/hud/hud_plane_c.cgf" soclasses_SmartObjectClass=""/>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{D422D17C-A47C-4E5B-9538-9B0FE82A89BF}" Name="PIVOT" Pos="0.012023926,0.0007019043,0.009979248" FloorNumber="-1" Rotate="1,0,0,0" Scale="0.02,0.02,0.02" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="UIEntity">
+    <Properties object_Model="objects/hud/hud_plane_a.cgf" soclasses_SmartObjectClass=""/>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{D023EFCB-F4CB-4D35-B156-D7CFED9F2683}" Name="HUD_MissionmessageSecondary" Pos="-0.64068604,0.3704834,0.14920044" FloorNumber="-1" Rotate="0.9238795,0,0.38268346,0" Scale="0.25377896,0.25377876,0.25377885" ColorRGB="65535" Material="Materials/hud/HUD3D" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="UIEntity">
+    <Properties object_Model="objects/hud/hud_plane_j.cgf" soclasses_SmartObjectClass=""/>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{BB635F49-9268-4889-A92B-4D4120F1D991}" Name="HUD_MissionmessageDetail" Pos="0.53924561,0.37130737,0.14700317" FloorNumber="-1" Rotate="-0.27059808,0.27059802,-0.65328145,-0.65328145" Scale="0.27920905,0.2792089,0.27920899" ColorRGB="65535" Material="Materials/hud/HUD3D" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="UIEntity">
+    <Properties object_Model="objects/hud/hud_plane_h.cgf" soclasses_SmartObjectClass=""/>
+   </Object>
+  </Objects>
+ </Prefab>
+</PrefabsLibrary>

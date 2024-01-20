@@ -1,0 +1,42 @@
+<Prefab Name="big_house_red_door_a" Id="{208AE63E-3457-4542-9E35-138C751E7BD0}" Library="props">
+ <Objects>
+  <Object Type="Brush" Layer="Sound" LayerGUID="{FF9A6122-258E-4360-BEB9-2A2937F95015}" Id="{2FB6534D-C5D0-4977-831B-FC8F8ADB5DAA}" Name="fishing_house_c_mod_win45" Pos="11.938232,3.239502,1.2582169" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/structures/buildings/fishing_houses/fishing_house_c_mod_win.cgf" NoCollision="0" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistRatio="100" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="536870920"/>
+  <Object Type="Brush" Layer="Sound" LayerGUID="{FF9A6122-258E-4360-BEB9-2A2937F95015}" Id="{0D5E295D-384D-4E2D-9A37-C1008CB2DCE4}" Name="fishing_house_c_mod_door52" Pos="9.6523438,1.3579102,1.25" FloorNumber="-1" Rotate="0.70710683,0,0,-0.70710677" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/structures/buildings/fishing_houses/fishing_house_c_mod_door.cgf" NoCollision="0" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistRatio="100" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="536870920"/>
+  <Object Type="Brush" Layer="Sound" LayerGUID="{FF9A6122-258E-4360-BEB9-2A2937F95015}" Id="{A59BD27F-ECFB-4BF4-862B-A8814EF2923C}" Name="fishing_house_c87" Pos="6.6142578,5.0788574,1.2067108" FloorNumber="-1" Rotate="0.70710683,0,0,0.70710677" ColorRGB="16777215" Material="objects/structures/buildings/fishing_houses/fishing_house_c" MatLayersMask="0" Prefab="objects/structures/buildings/fishing_houses/fishing_house_c.cgf" NoCollision="0" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistRatio="100" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="536870920"/>
+  <Object Type="Entity" Layer="Sound" LayerGUID="{FF9A6122-258E-4360-BEB9-2A2937F95015}" Id="{25F96695-FE23-4FEE-AF84-4CE2B7DA4B8A}" Name="prefab_big_house_rv16" Pos="6.5705566,5.2702637,7.365303" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="ReverbVolume">
+   <Properties bEnabled="1" Environment="2" bFullEffectWhenInside="1" OuterRadius="1" reverbpresetReverbPreset="Room_Small"/>
+  </Object>
+  <Object Type="Shape" Layer="Sound" LayerGUID="{FF9A6122-258E-4360-BEB9-2A2937F95015}" Id="{78A9E0A2-1CD3-4A71-9B1B-193F04E6126C}" Name="prefab_big_house_shape18" Pos="1.25,8.875,1" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="3.5" AreaId="0" GroupId="1" Priority="100" Closed="1" DisplayFilled="0" DisplaySoundInfo="1" Agent_height="1.8" Agent_width="0.5" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape">
+   <Points>
+    <Point Pos="0,0,0"/>
+    <Point Pos="10.75,-0.125,0.059997559"/>
+    <Point Pos="10.75,-4.375,0.059997559"/>
+    <Point Pos="7.25,-4.375,0.125"/>
+    <Point Pos="7.25,-5.5,0.084999084"/>
+    <Point Pos="5.125,-5.5,0.084999084"/>
+    <Point Pos="5.125,-7.75,0.084999084"/>
+    <Point Pos="0.125,-7.75,0.084999084"/>
+    <Point Pos="0.125,-3.25,0.125"/>
+    <Point Pos="0.125,-1.875,0.125"/>
+   </Points>
+   <Entities>
+    <Entity Id="{25F96695-FE23-4FEE-AF84-4CE2B7DA4B8A}"/>
+    <Entity Id="{D06065FB-7F90-458A-875F-FBDC2325D424}"/>
+   </Entities>
+   <SoundData Side1="1" Side2="1" Side3="1" Side4="1" Side5="1" Side6="1" Side7="1" Side8="1" Side9="0" Side10="1" Roof="1" Floor="1"/>
+  </Object>
+  <Object Type="Brush" Layer="Sound" LayerGUID="{FF9A6122-258E-4360-BEB9-2A2937F95015}" Id="{C46C26C8-DBB8-4D3C-92DE-612097721C21}" Name="fishing_house_c_mod_win44" Pos="1.2697754,5.0791016,5.3434601" FloorNumber="-1" Rotate="-4.3711388e-008,0,0,1" Scale="0.64999998,0.64999998,0.64999998" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/structures/buildings/fishing_houses/fishing_house_c_mod_win.cgf" NoCollision="0" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistRatio="100" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="536870920"/>
+  <Object Type="Brush" Layer="Sound" LayerGUID="{FF9A6122-258E-4360-BEB9-2A2937F95015}" Id="{B5A295C8-07C7-43B2-A7BE-B350CFC4C469}" Name="fishing_house_c_mod_epole45" Pos="11.974854,5.0739746,6.1870346" FloorNumber="-1" Rotate="0.70710683,0,0,-0.70710677" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/structures/buildings/fishing_houses/fishing_house_c_mod_epole.cgf" NoCollision="0" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistRatio="100" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="536870920"/>
+  <Object Type="Brush" Layer="Sound" LayerGUID="{FF9A6122-258E-4360-BEB9-2A2937F95015}" Id="{66F570D1-EDD8-4012-86A8-5991FE1C3944}" Name="fishing_house_c_mod_win43" Pos="12.963623,3.239502,1.2582169" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/structures/buildings/fishing_houses/fishing_house_c_mod_win.cgf" NoCollision="0" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistRatio="100" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="536870920"/>
+  <Object Type="Entity" Layer="Sound" LayerGUID="{FF9A6122-258E-4360-BEB9-2A2937F95015}" Id="{D06065FB-7F90-458A-875F-FBDC2325D424}" Name="prefab_big_house_av15" Pos="5.4455566,5.2702637,7.365303" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="AmbientVolume">
+   <Properties bEnabled="1" bIgnoreCulling="0" bIgnoreObstruction="0" bLogBattleValue="0" soundName="Sounds/physics:objects/prefab_buildings:village_hut_ambience" OuterRadius="2" bSensitiveToBattle="0"/>
+  </Object>
+  <Object Type="Entity" Layer="Sound" LayerGUID="{FF9A6122-258E-4360-BEB9-2A2937F95015}" Id="{53739BFB-EF63-4D33-B546-5EB30CFA83E7}" Name="Door57" Pos="1.3500977,6.9645996,2.4106598" FloorNumber="-1" Rotate="0.70710683,0,0,-0.70710671" ColorRGB="65535" Material="objects/structures/buildings/fishing_houses/fishing_house_c" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Door">
+   <Properties bActivatePortal="0" bLocked="0" fileModel="objects/structures/buildings/fishing_houses/fishing_door_c.cgf" soclasses_SmartObjectClass="Door" bSquashPlayers="0" fUseDistance="2.5">
+    <Rotation fAcceleration="500" sAxis="z" sFrontAxis="x" fRange="90" bRelativeToUser="0" fSpeed="200" fStopTime="0.125"/>
+    <Slide fAcceleration="3" sAxis="x" fRange="0" fSpeed="2" fStopTime="0.5"/>
+    <Sounds fRange="50" soundSoundOnMove="" soundSoundOnStop="" soundSoundOnStopClosed="" fVolume="200"/>
+   </Properties>
+  </Object>
+ </Objects>
+</Prefab>

@@ -1,0 +1,36 @@
+<Prefab Name="shack_wlogs_door_a" Id="{6297E12E-BFE9-4CBA-BDB1-890C999C8D8E}" Library="props">
+ <Objects>
+  <Object Type="Brush" Layer="Sound" LayerGUID="{FF9A6122-258E-4360-BEB9-2A2937F95015}" Id="{75BC3406-CE0B-4F21-9B94-05316EAF4BD6}" Name="prefab_log_stack_9" Pos="8.7631836,4.4755859,0.50757599" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/misc/stacked_logs/stacked_logs_half_4m_a.cgf" NoCollision="0" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistRatio="100" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="536870920"/>
+  <Object Type="Brush" Layer="Sound" LayerGUID="{FF9A6122-258E-4360-BEB9-2A2937F95015}" Id="{0890EA45-3DC9-4911-BDD8-AF239C30D991}" Name="prefab_log_stack_8" Pos="8.7524414,7.2216797,0.58964539" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/props/misc/stacked_logs/stacked_logs_half_4m_a.cgf" NoCollision="0" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistRatio="100" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="536870920"/>
+  <Object Type="Entity" Layer="Sound" LayerGUID="{FF9A6122-258E-4360-BEB9-2A2937F95015}" Id="{533EBE83-B9D5-458E-9124-B5079866FEA3}" Name="prefab_shack_rv5" Pos="4.1140137,5.9970703,5.7530975" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="ReverbVolume">
+   <Properties bEnabled="1" Environment="1" bFullEffectWhenInside="1" OuterRadius="1" reverbpresetReverbPreset="Room_Small"/>
+  </Object>
+  <Object Type="Entity" Layer="Sound" LayerGUID="{FF9A6122-258E-4360-BEB9-2A2937F95015}" Id="{44E844AB-1775-4C28-9E17-FC7BBA0AE321}" Name="prefab_schack_av6" Pos="4.1140137,7.0405273,5.7530975" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="AmbientVolume">
+   <Properties bEnabled="1" bIgnoreCulling="0" bIgnoreObstruction="0" bLogBattleValue="0" soundName="Sounds/physics:objects/prefab_buildings:village_hut_ambience" OuterRadius="2" bSensitiveToBattle="0"/>
+  </Object>
+  <Object Type="Entity" Layer="Sound" LayerGUID="{FF9A6122-258E-4360-BEB9-2A2937F95015}" Id="{FEF59FB3-48B9-40EC-908E-E02C610A9C66}" Name="Door48" Pos="2.0981445,5.9665527,2.113205" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="objects/structures/buildings/forest_cabin/forest_cabin" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Door">
+   <Properties bActivatePortal="0" bLocked="0" fileModel="objects/structures/buildings/forest_cabin/forest_cabin_door.cgf" soclasses_SmartObjectClass="Door" bSquashPlayers="0" fUseDistance="2.5">
+    <Rotation fAcceleration="500" sAxis="z" sFrontAxis="x" fRange="90" bRelativeToUser="0" fSpeed="200" fStopTime="0.125"/>
+    <Slide fAcceleration="3" sAxis="x" fRange="0" fSpeed="2" fStopTime="0.5"/>
+    <Sounds fRange="50" soundSoundOnMove="" soundSoundOnStop="" soundSoundOnStopClosed="" fVolume="200"/>
+   </Properties>
+  </Object>
+  <Object Type="Shape" Layer="Sound" LayerGUID="{FF9A6122-258E-4360-BEB9-2A2937F95015}" Id="{F9D7C8B8-1313-4E7F-9F71-AA3386264F4F}" Name="prefab_shack_soundshape_8" Pos="2.0759277,10,1.0222092" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="1.9" AreaId="0" GroupId="1" Priority="100" Closed="1" DisplayFilled="0" DisplaySoundInfo="1" Agent_height="1.8" Agent_width="0.5" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape">
+   <Points>
+    <Point Pos="0,0,0"/>
+    <Point Pos="0,-3.125,0"/>
+    <Point Pos="0,-4.125,0"/>
+    <Point Pos="0,-9,0"/>
+    <Point Pos="3.5,-9,0"/>
+    <Point Pos="3.5,-5.25,0"/>
+    <Point Pos="5.25,-5.25,0"/>
+    <Point Pos="5.25,0,0"/>
+   </Points>
+   <Entities>
+    <Entity Id="{44E844AB-1775-4C28-9E17-FC7BBA0AE321}"/>
+   </Entities>
+   <SoundData Side1="1" Side2="0" Side3="1" Side4="1" Side5="1" Side6="1" Side7="1" Side8="1" Roof="1" Floor="1"/>
+  </Object>
+  <Object Type="Brush" Layer="Sound" LayerGUID="{FF9A6122-258E-4360-BEB9-2A2937F95015}" Id="{6905EFC8-D068-4D5F-82F3-0F2CF7C98A46}" Name="prefab_shack_9" Pos="4.5412598,5.369873,0.84342957" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/structures/buildings/forest_cabin/forest_cabin.cgf" NoCollision="0" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistRatio="100" MeshIntegrationType="0" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="536870920"/>
+ </Objects>
+</Prefab>

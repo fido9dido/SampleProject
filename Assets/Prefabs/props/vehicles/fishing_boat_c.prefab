@@ -1,0 +1,43 @@
+<Prefab Name="fishing_boat_c" Id="{B7D261C0-4358-4261-9A19-5A729BB97E0B}" Library="props">
+ <Objects>
+  <Object Type="Entity" Layer="Coast" LayerGUID="{9ED7E125-6732-4C17-B24B-6493921E4D63}" Id="{BBD670AF-1E05-4657-B2DC-BC046AE784CF}" Name="fishing_boat" Pos="1.2473145,3.596283,0.73390198" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Objects/vehicles/fisher_boat/fishing_boat_green" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" LodRatio="200" ViewDistRatio="40" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="RigidBodyEx">
+   <Properties bAutoGenAIHidePts="0" bCanShatter="1" esFaction="" bFreezable="1" bHeavyObject="0" bInteractLargeObject="0" object_Model="objects/vehicles/fisher_boat/fishing_boat.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+    <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+    <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+     <vOffset x="0" y="0" z="0"/>
+    </Interest>
+    <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="255" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="0" bRigidBody="1" bRigidBodyActive="1">
+     <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+     <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+    </Physics>
+   </Properties>
+   <Properties2>
+    <Interest soaction_Action="" bInteresting="0" InterestLevel="-1" bOverrideArchetype="0" Pause="-1" Radius="-1" bShared="0"/>
+   </Properties2>
+  </Object>
+  <Object Type="GeomEntity" Layer="Coast" LayerGUID="{9ED7E125-6732-4C17-B24B-6493921E4D63}" Id="{7FE267E0-394B-4919-88F9-8095D0DC18D4}" Name="outboard_engine" Parent="{BBD670AF-1E05-4657-B2DC-BC046AE784CF}" Pos="-0.43676758,-3.2900696,0.0040130615" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Geometry="Objects/vehicles/fisher_boat/outboard_motor.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="200" ViewDistRatio="40" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+   <Properties esFaction="">
+    <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+    <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+     <vOffset x="0" y="0" z="0"/>
+    </Interest>
+   </Properties>
+  </Object>
+  <Object Type="GeomEntity" Layer="Coast" LayerGUID="{9ED7E125-6732-4C17-B24B-6493921E4D63}" Id="{446CDAE4-4E24-4B98-93A9-52DCFE812DF1}" Name="lifebelt" Parent="{7FE267E0-394B-4919-88F9-8095D0DC18D4}" Pos="-0.025306702,2.6142578,-0.2089386" FloorNumber="-1" Rotate="4.3711388e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" Geometry="objects/vehicles/fisher_boat/lifering.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="200" ViewDistRatio="30" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+   <Properties esFaction="">
+    <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+    <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+     <vOffset x="0" y="0" z="0"/>
+    </Interest>
+   </Properties>
+  </Object>
+  <Object Type="GeomEntity" Layer="Coast" LayerGUID="{9ED7E125-6732-4C17-B24B-6493921E4D63}" Id="{F374330B-3C03-41F5-85FF-408FD59FDBB7}" Name="lifebelt_rope" Parent="{BBD670AF-1E05-4657-B2DC-BC046AE784CF}" Pos="-0.4188385,-1.1228333,-0.0093536377" FloorNumber="-1" Rotate="4.3711388e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" Geometry="Objects/vehicles/fisher_boat/lifebelt_rope.cgf" OutdoorOnly="0" CastShadow="1" LodRatio="200" ViewDistRatio="20" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity">
+   <Properties esFaction="">
+    <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+    <Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+     <vOffset x="0" y="0" z="0"/>
+    </Interest>
+   </Properties>
+  </Object>
+ </Objects>
+</Prefab>

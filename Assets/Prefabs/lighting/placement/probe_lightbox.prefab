@@ -1,0 +1,15 @@
+<Prefab Name="probe_lightbox" Id="{9B642EF3-6F99-4D20-A121-13F72B14BF99}" Library="lighting">
+ <Objects>
+  <Object Type="LightBox" Layer="Lighting_AB1_Rebel_building" Id="{315CC93C-A2BD-44FC-8B1E-FCD95CE7F5D9}" Name="AB1_room_a_lightbox0" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16711680" MatLayersMask="0" OriginAtCorner="1" Width="8" Length="8" Height="5" DisableGI="0" EntityClass="LightBox" BoxMin="0,0,0" BoxMax="8,8,5"/>
+  <Object Type="EnvironmentProbe" Layer="Lighting_AB1_Rebel_building" Id="{30C781B6-D481-4F9C-8F4C-3D3293FE149D}" Name="AB1_room_a_probe0" Pos="4,4,1.5" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" cubemap_resolution="128" preview_cubemap="0" OutdoorOnly="0" CastShadow="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight">
+   <Properties bActive="1" Radius="10" _nVersion="-1">
+    <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fHDRDynamic="5" fSpecularMultiplier="1"/>
+    <Options bAffectsThisAreaOnly="1" file_deferred_clip_geom="" _texture_deferred_cubemap="" bDeferredClipBounds="1" bDeferredLight="1" bIgnoresVisAreas="0"/>
+    <OptionsAdvanced texture_deferred_cubemap="textures/cubemaps/generic/generic_cm.dds"/>
+   </Properties>
+   <EntityLinks>
+    <Link TargetId="{315CC93C-A2BD-44FC-8B1E-FCD95CE7F5D9}" Name="NewLink" RelRot="1,0,0,0" RelPos="0,0,0"/>
+   </EntityLinks>
+  </Object>
+ </Objects>
+</Prefab>
