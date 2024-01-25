@@ -45,6 +45,11 @@
             },
             {
                 "guid": "",
+                "path": "CryScaleform",
+                "type": "EType::Native"
+            },
+            {
+                "guid": "",
                 "path": "CryPerceptionSystem",
                 "type": "EType::Native"
             },

@@ -1,11 +1,9 @@
-<AssetMetadata version="0" type="Level" guid="1efb740f-d7b8-f0e1-9326-8d4c20f282db" source="" timestamp="1705604188">
+<AssetMetadata version="0" type="Level" guid="1efb740f-d7b8-f0e1-9326-8d4c20f282db" source="" timestamp="1706151537">
  <Files>
   <File path="default/default.level"/>
  </Files>
  <Dependencies>
   <Path usageCount="1">%ENGINE%/EngineAssets/Shading/default.env</Path>
-  <Path>%editor%/objects/envcube.cgf</Path>
-  <Path>%editor%/objects/envcube.mtl</Path>
   <Path>%engine%/engineassets/icons/averagememoryusage.dds</Path>
   <Path>%engine%/engineassets/icons/highmemoryusage.dds</Path>
   <Path>%engine%/engineassets/icons/livepreview.dds</Path>
@@ -26,6 +24,7 @@
   <Path>animations/mannequin/adb/itemtags.xml</Path>
   <Path>animations/mannequin/adb/playerfragmentids.xml</Path>
   <Path>animations/mannequin/adb/playertags.xml</Path>
+  <Path>editor/resourcecache/engineassets/textures/white.dds</Path>
   <Path>engineassets/textures/white.dds</Path>
   <Path>libs/actiongraphs/sdk_explosion.xml</Path>
   <Path>libs/flowgraphmodules/tod_street_light.xml</Path>
@@ -43,6 +42,12 @@
   <Path>libs/particles/weapon_fx.xml</Path>
   <Path>libs/particles/weather.xml</Path>
   <Path>libs/ui//texturepreload.xml</Path>
+  <Path>libs/ui/textures/background1.dds</Path>
+  <Path>libs/ui/textures/background2.dds</Path>
+  <Path>libs/ui/textures/background3.dds</Path>
+  <Path>libs/ui/textures/background4.dds</Path>
+  <Path>libs/ui/textures/background5.dds</Path>
+  <Path>libs/ui/textures/background6.dds</Path>
   <Path>materials/bullet.mtl</Path>
   <Path>materials/cursor.mtl</Path>
   <Path>materials/decals/blood/human_body.mtl</Path>

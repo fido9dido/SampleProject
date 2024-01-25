@@ -1,36 +1,6 @@
 <ObjectLayer>
- <Layer Name="Main" FullName="Main" GUID="296ae3dc-9a78-8d42-7815-26aa3bd73ed2" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1705604188">
+ <Layer Name="Main" FullName="Main" GUID="296ae3dc-9a78-8d42-7815-26aa3bd73ed2" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1706151535">
   <LayerObjects>
-   <Object Type="EntityWithComponent" Layer="Main" LayerGUID="296ae3dc-9a78-8d42-7815-26aa3bd73ed2" Id="734c5d74-e176-9627-c92c-7d16c52ea515" Name="Environment Probe" Pos="522,526,55.382332" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
-    <Properties />
-    <Components>
-     <Component CryXmlVersion="2" TypeGUID="63297e89-ea00-4f56-ac23-2e93c68fe71d" TypeName="Cry::DefaultComponents::CEnvironmentProbeComponent" GUID="bc0ba9c6-568b-fcf3-ab65-d1a4064caeb8" Name="" UserAdded="true">
-      <Transform>
-       <translation>
-        <position>
-         <element element="0"/>
-         <element element="0"/>
-         <element element="0"/>
-        </position>
-       </translation>
-       <rotation x="0" y="-0" z="0"/>
-       <scale>
-        <element element="1"/>
-        <element element="1"/>
-        <element element="1"/>
-       </scale>
-      </Transform>
-      <properties Active="true">
-       <BoxSize x="100" y="100" z="14"/>
-       <Options IgnoreVisAreas="false" SortPriority="0" AttenuationFalloffMax="1" AffectVolumetricFog="true" VolumetricFogOnly="false" OnlyAffectThisArea="true" BoxProjection="false"/>
-       <Color DiffMult="1" SpecMult="1">
-        <Color r="1" g="1" b="1" a="1"/>
-       </Color>
-       <Generation GeneratedCubemapPath="textures\cubemaps\default\Environment Probe_cm.tif" AutoLoad="true" Resolution="Low"/>
-      </properties>
-     </Component>
-    </Components>
-   </Object>
    <Object Type="EmptyEntity" Layer="Main" LayerGUID="296ae3dc-9a78-8d42-7815-26aa3bd73ed2" Id="c691b497-a110-4b04-8023-48ef72af106f" Name="MainPlayer" Pos="306.73135,543.46368,38.832111" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>

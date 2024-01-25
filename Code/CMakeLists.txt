@@ -33,7 +33,16 @@ add_sources("Components_uber.cpp"
 		"Header_Files/Components/MainPlayerComponent.h"
 		"Header_Files/Components/MovementComponent.h"
 		"Header_Files/Components/SpawnPointComponent.h"
+		"Header_Files/Components/UIComponent.h"
 		"Header_Files/Components/Util.h"
+)
+add_sources("UI_uber.cpp"
+    PROJECTS LearningProject
+    SOURCE_GROUP "Header_Files\\\\UI"
+		"Header_Files/UI/Button.h"
+		"Header_Files/UI/ButtonWithImage.h"
+		"Header_Files/UI/ButtonWithText.h"
+		"Header_Files/UI/CHUD.h"
 )
 add_sources("Source_Files_uber.cpp"
     PROJECTS LearningProject
@@ -45,6 +54,14 @@ add_sources("Components_uber.cpp"
 		"Source_Files/Components/MainPlayerComponent.cpp"
 		"Source_Files/Components/MovementComponent.cpp"
 		"Source_Files/Components/SpawnPointComponent.cpp"
+		"Source_Files/Components/UIComponent.cpp"
+)
+add_sources("UI_uber.cpp"
+    PROJECTS LearningProject
+    SOURCE_GROUP "Source_Files\\\\UI"
+		"Source_Files/UI/Button.cpp"
+		"Source_Files/UI/ButtonWithImage.cpp"
+		"Source_Files/UI/ButtonWithText.cpp"
 )
 
 if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/CVarOverrides.h")
