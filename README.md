@@ -17,6 +17,6 @@ Currently it
    	*	Make Empty Entity and add UI component then Add a button from there, UIComponent is used to test UI code for now
    	
 issues:	
-	*	UI
-		*	xml doesn't seem to position the button where i told it to!
+*	UI
+   	*	xml doesn't seem to position the button where i told it to!
 	
