@@ -43,6 +43,7 @@ add_sources("UI_uber.cpp"
 		"Header_Files/UI/ButtonWithImage.h"
 		"Header_Files/UI/ButtonWithText.h"
 		"Header_Files/UI/CHUD.h"
+		"Header_Files/UI/StructureUI.h"
 )
 add_sources("Source_Files_uber.cpp"
     PROJECTS LearningProject
@@ -62,6 +63,7 @@ add_sources("UI_uber.cpp"
 		"Source_Files/UI/Button.cpp"
 		"Source_Files/UI/ButtonWithImage.cpp"
 		"Source_Files/UI/ButtonWithText.cpp"
+		"Source_Files/UI/StructureUI.cpp"
 )
 
 if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/CVarOverrides.h")

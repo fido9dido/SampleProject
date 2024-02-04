@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Fill out your copyright notice here.
 #include "StdAfx.h"
 #include "Header_Files/UI/ButtonWithText.h"
 #include <CrySystem/Scaleform/IFlashUI.h> 
@@ -18,8 +18,8 @@ void CButtonWithText::SetText(const string& newText)
 	CallFunction("SetButtonText", m_text);
 }
 
-string CButtonWithText::GetText()
-{
+string CButtonWithText::GetButtonText()
+{		  
 	return CallFunction<string>("GetButtonText");
 }
 

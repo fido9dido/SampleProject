@@ -1,31 +1,40 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Fill out your copyright notice here.
 #ifndef BUTTON_H
 #define BUTTON_H
 
 #include <CrySystem/Scaleform/IFlashUI.h> 
 
+class IButton
+{
+	virtual void SetButtonPosition(f32 posX, f32 posY) = 0 ;
+
+	virtual void SetButtonWidthAndHeight(int32 width, int32 height) = 0;
+	virtual void SetButtonWidth(int32 width) = 0;
+	virtual void SetButtonHeight(int32 height) = 0;
+	virtual void SetVisible(bool value) = 0;
+};
+
 ////////////////////////////////////////////////////////
 // Represents a base class for a button 
 ////////////////////////////////////////////////////////
 //todo: Should i make a pure vfunc?! probably! 
-class CButton : public IUIElementEventListener
+class CButton : public IButton, public IUIElementEventListener
 {
 protected:
 	struct IUIElement* m_pUIElement;
 public:
-
-	CButton() = delete;
-	//name should match the gfx's name
-	CButton(const string& name);
+	//For a button that uses the default asset
+	CButton() {};
+	//For a button that uses custom assets, it assumes it implements IButton
+	CButton(const string& gfxName);
 	~CButton() = default;
 
 	//I don't like SetPosition, but this function is here for now, for some reason the xml doesn't position it at all
-	void SetPosition(int32 x, int32 y);
-	
-	void SetWidthAndHeight(int32 width, int32 height);
-	void SetWidth(int32 width);
-	void SetHeight(int32 height);
-	void SetVisible(bool value);
+	virtual void SetButtonPosition(f32 posX, f32 posY) override;
+	virtual void SetButtonWidthAndHeight(int32 width, int32 height) override;
+	virtual void SetButtonWidth(int32 width) override;
+	virtual void SetButtonHeight(int32 height) override;
+	virtual void SetVisible(bool value) override;
 	
 	template<typename ...Args>
 	void CallFunction(const char* funcName, Args&&... params)
@@ -42,8 +51,10 @@ public:
 						arguments.AddArgument(params);
 					} (), ...);
 
-				m_pUIElement->CallFunction(eventDesc->sName, arguments);// to do assert here
-			
+				if(!m_pUIElement->CallFunction(eventDesc->sName, arguments))
+				{
+					CRY_ASSERT_MESSAGE(false, "Function: %s call failed", eventDesc->sName);
+				}
 			}
 		}
 	}
@@ -65,10 +76,14 @@ public:
 						arguments.AddArgument(params);
 					} (), ...);
 
-				if (m_pUIElement->CallFunction(eventDesc->sName, arguments, &result))	// to do assert here
+				if (m_pUIElement->CallFunction(eventDesc->sName, arguments, &result))	
 				{
 					result.GetValueWithConversion(returnValue);
-				} 
+				}
+				else
+				{
+					CRY_ASSERT_MESSAGE(false, "Function: %s call failed", eventDesc->sName);
+				}
 			}
 		}
 		return returnValue;

@@ -1,43 +1,45 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Fill out your copyright notice here.
 #include "StdAfx.h"
 #include "Header_Files/UI/Button.h"
 #include <CrySystem/Scaleform/IFlashUI.h> 
 #include <cassert>
 
-CButton::CButton(const string& name)
+CButton::CButton(const string& gfxName)
 {
-	m_pUIElement = gEnv->pFlashUI->GetUIElement(name);
+	m_pUIElement = gEnv->pFlashUI->GetUIElement(gfxName);
 	if (m_pUIElement)
 	{
 		m_pUIElement->RemoveEventListener(this);	// to avoid double registration
-		m_pUIElement->AddEventListener(this, name);
+		m_pUIElement->AddEventListener(this, gfxName);
 		m_pUIElement->Init();	
-		
 	}
 }
 
-void CButton::SetPosition(int32 x, int32 y)
+void CButton::SetButtonPosition(f32 xPos, f32 yPos)
 {
-	CallFunction("SetButtonPosition", x, y);
+	CallFunction("SetButtonPosition", xPos, yPos);
 }
 
-void CButton::SetWidthAndHeight(int32 width, int32 height)
+void CButton::SetButtonWidthAndHeight(int32 width, int32 height)
 {
 	CallFunction("SetButtonWidthAndHeight", width, height);
 }
 
-void CButton::SetWidth(int32 width)
+void CButton::SetButtonWidth(int32 width)
 {
 	CallFunction("SetButtonWidth", width);
 }
 
-void CButton::SetHeight(int32 height)
+void CButton::SetButtonHeight(int32 height)
 {
 	CallFunction("SetButtonHeight", height);
 }
 
 void CButton::SetVisible(bool value)
-{
-	m_pUIElement->SetVisible(true);
+{	
+	if (m_pUIElement)
+	{
+		m_pUIElement->SetVisible(true);
+	}
 }
 

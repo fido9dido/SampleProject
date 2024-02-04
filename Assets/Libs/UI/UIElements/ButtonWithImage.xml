@@ -1,0 +1,58 @@
+<UIElements name="UI"> // Element for category identification
+
+	<UIElement name="ButtonWithImage" render_lockness="1" mouseevents="1" cursor="1">
+
+		<GFx file="ButtonWithImage.gfx" layer="1">
+			<Constraints>
+				<Align mode="dynamic" vAlign="mid" hAlign="mid" scale="1" />
+			</Constraints>
+		</GFx>
+		<functions>
+			<function name="SetTextureID" funcname="SetTextureID" desc="Set Texture ID">
+				<in_param name="newText" desc="Texture ID of the image to load" type="int"/>
+			</function>
+			<function name="GetTextureID" funcname="GetTextureID" desc="Get Texture ID">
+				<out_param  type="int"/>
+			</function>
+			<function name="SetVisible" funcname="SetVisible" desc="Set Image Path">
+				<in_param name="value" desc="value" type="bool"/>
+			</function>
+			<function name="SetDefaultWidthAndHeight" funcname="SetDefaultWidthAndHeight" desc="Set Image Path">
+				<in_param name="newWidth" desc="New Width" type="int"/>
+				<in_param name="newHeight" desc="Button Text" type="int"/>
+			</function>
+			<function name="SetPosition" funcname="SetPosition" desc="Set Image Path">
+				<in_param name="xPos" desc="X Position" type="int"/>
+				<in_param name="yPos" desc="Y Position" type="int"/>
+			</function>			
+			<function name="SetButtonPosition" funcname="SetButtonPosition" desc="Set Image Path">
+				<in_param name="xPos" desc="X Position" type="int"/>
+				<in_param name="yPos" desc="Y Position" type="int"/>
+			</function>
+			<function name="SetImagePosition" funcname="SetImagePosition" desc="Set Image Path">
+				<in_param name="xPos" desc="X Position" type="int"/>
+				<in_param name="yPos" desc="Y Position" type="int"/>
+			</function>
+			<function name="SetButtonWidth" funcname="SetButtonWidth" desc="Set Image Path">
+				<in_param name="newWidth" desc="New Width" type="int"/>
+			</function>
+			<function name="SetButtonHeight" funcname="SetButtonHeight" desc="Set Image Path">
+				<in_param name="newHeight" desc="New Height" type="int"/>
+			</function>
+			<function name="SetImageWidth" funcname="SetImageWidth" desc="Set Image Path">
+				<in_param name="newWidth" desc="New Width" type="int"/>
+			</function>
+			<function name="SetImageHeight" funcname="SetImageHeight" desc="Set Image Path">
+				<in_param name="newHeight" desc="New Height" type="int"/>
+			</function>
+		</functions>
+
+		<events>
+			<event name="OnButtonPressed" fscommand ="OnPressed">
+ 				
+				<param name="Name" desc="" type="string"/>
+			</event>
+		</events>
+	
+	</UIElement>
+</UIElements>

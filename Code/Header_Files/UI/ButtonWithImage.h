@@ -1,9 +1,10 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Fill out your copyright notice here.
 #ifndef BUTTON_WITH_IMAGE_H
 #define BUTTON_WITH_IMAGE_H
 
 #include "Button.h"
 #include <CrySystem/Scaleform/IFlashUI.h> 
+#include <CrySchematyc/Utils/SharedString.h> 
 
 ////////////////////////////////////////////////////////
 // Represents a Button With Image 
@@ -12,20 +13,25 @@
 class CButtonWithImage : public CButton
 {
 private:
-	string m_texturePath;
+	string m_iconPath;
 
 public:
 	CButtonWithImage();
-	//name should match the gfx's name
-	CButtonWithImage(string name);
+	CButtonWithImage(string gfxName);
 	~CButtonWithImage() = default;
 
-	string GetImagePath();
-	void SetImagePath(const string& imagePath, int32 width, int32 height);
+	int GetTextureID();
+	void SetTextureID(int textureID);
+
+	void SetImagePosition(int xPos, int yPos);
+
+	void SetDefaultWidthAndHeight(int newWidth, int newHeight);
+	void SetImageWidth(int newWidth);
+	void SetImageHeight(int newHeight);
 	
 	virtual void OnUIEvent(struct IUIElement* pSender, const SUIEventDesc& event, const SUIArguments& args) override;
 	virtual void OnUIEventEx(struct IUIElement* pSender, const char* fscommand, const SUIArguments& args, void* pUserData) override;
-
+	
 };
 
 #endif

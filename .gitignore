@@ -17,6 +17,7 @@
 *.pyc
 *.bak
 *.bak2
+*.png
 error.jpg
 _WAF_/user_settings.options
 

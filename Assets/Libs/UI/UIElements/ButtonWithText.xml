@@ -4,27 +4,31 @@
 
 		<GFx file="ButtonWithText.gfx" layer="1">
 			<Constraints>
-				<Align mode="dynamic" valign="center" halign="center" scale="0" max="0"/>
+				<Align mode="dynamic" vAlign="mid" hAlign="mid" scale="1" />
 			</Constraints>
 		</GFx>
 		<functions>
-			<function name="SetButtonText" funcname="SetText" desc="Set Button Text">
+			<function name="SetButtonText" funcname="SetButtonText" desc="Set Button Text">
 				<in_param name="newText" desc="Button Text" type="string"/>
 			</function>
-			<function name="GetButtonText" funcname="GetText" desc="Get Button Text">
+			<function name="GetButtonText" funcname="GetButtonText" desc="Get Button Text">
 				<out_param  type="string"/>
 			</function>
-			<function name="SetButtonWidthAndHeight" funcname="SetWidthAndHeight" desc="Set Button Width and Height">
+			<function name="SetButtonWidthAndHeight" funcname="SetButtonWidthAndHeight" desc="Set Button Width and Height">
 				<in_param name="newWidth" desc="Button width" type="int"/>
 				<in_param name="newHeight" desc="Button height" type="int"/>
 			</function>
-			<function name="SetButtonWidth" funcname="SetWidth" desc="Set Button Width">
+			<function name="SetButtonWidth" funcname="SetButtonWidth" desc="Set Button Width">
 				<in_param name="newWidth" desc="Button Text" type="int"/>
 			</function>			
-			<function name="SetButtonHeight" funcname="SetHeight" desc="Set Button Height">
+			<function name="SetButtonHeight" funcname="SetButtonHeight" desc="Set Button Height">
 				<in_param name="newHeight" desc="Button Text" type="int"/>
 			</function>
-	      		<function name="SetButtonVisible" funcname="SetVisible" desc="Set Button Visible">
+				<function name="SetButtonPosition" funcname="SetButtonPosition" desc="Set Button Position">
+				<in_param name="xPos" desc="x Position" type="int"/>
+				<in_param name="yPos" desc="y Position" type="int"/>
+			</function>	
+	      	<function name="SetButtonVisible" funcname="SetButtonVisible" desc="Set Button Visible">
 				<in_param name="value" desc="button Visiblility" type="bool"/>
 			</function>
 		</functions>

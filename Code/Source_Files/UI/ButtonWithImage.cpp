@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Fill out your copyright notice here.
 #include "StdAfx.h"
 #include "Header_Files/UI/ButtonWithImage.h"
 #include <CrySystem/Scaleform/IFlashUI.h> 
@@ -8,18 +8,38 @@ CButtonWithImage::CButtonWithImage() : CButton("ButtonWithImage")
 {
 }
 
-CButtonWithImage::CButtonWithImage(string name) : CButton(name)
+CButtonWithImage::CButtonWithImage(string gfxName) : CButton(gfxName)
 {
 }
 
-string CButtonWithImage::GetImagePath()
+int CButtonWithImage::GetTextureID()
 {
-	return CallFunction<string>("GetButtonImagePath");
+	return CallFunction<int>("GetTextureID");
 }
 
-void CButtonWithImage::SetImagePath(const string& imagePath, int32 width, int32 height)
+void CButtonWithImage::SetImagePosition(int xPos, int yPos)
 {
-	CallFunction("SetButtonImagePath", imagePath, width, height);
+	CallFunction("SetImagePosition", xPos, yPos);
+}
+
+void CButtonWithImage::SetDefaultWidthAndHeight(int newWidth, int newHeight)
+{
+	CallFunction("SetDefaultWidthAndHeight", newWidth, newHeight);
+}
+
+void CButtonWithImage::SetImageWidth(int newWidth)
+{
+	CallFunction("SetImageWidth", newWidth);
+}
+
+void CButtonWithImage::SetImageHeight(int newHeight)
+{
+	CallFunction("SetImageHeight", newHeight);
+}
+
+void CButtonWithImage::SetTextureID(int textureID)
+{
+	CallFunction("SetTextureID", textureID);
 }
 
 void CButtonWithImage::OnUIEvent(IUIElement* pSender, const SUIEventDesc& event, const SUIArguments& args)
