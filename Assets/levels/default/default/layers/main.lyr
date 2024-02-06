@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Main" FullName="Main" GUID="296ae3dc-9a78-8d42-7815-26aa3bd73ed2" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1707042163">
+ <Layer Name="Main" FullName="Main" GUID="296ae3dc-9a78-8d42-7815-26aa3bd73ed2" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1707201943">
   <LayerObjects>
    <Object Type="EmptyEntity" Layer="Main" LayerGUID="296ae3dc-9a78-8d42-7815-26aa3bd73ed2" Id="c691b497-a110-4b04-8023-48ef72af106f" Name="MainPlayer" Pos="306.73135,543.46368,38.832111" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
@@ -98,9 +98,18 @@
    <Object Type="EmptyEntity" Layer="Main" LayerGUID="296ae3dc-9a78-8d42-7815-26aa3bd73ed2" Id="557f120d-d257-7fb1-5ad3-31787a10d9d9" Name="Entity-2" Pos="304,543,39" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
-     <Component CryXmlVersion="2" TypeGUID="0d382720-1c0c-49de-bdfa-c5aef492fddf" TypeName="CUIComponent" GUID="259322f6-0cbd-a019-57d4-6020f21b297c" Name="" UserAdded="true">
-      <properties buttonalignment="Vertical" buttonpadding="0" buttonwidth="100" buttonheight="100">
-       <buttonscreenPosition x="500" y="500"/>
+     <Component CryXmlVersion="2" TypeGUID="0d382720-1c0c-49de-bdfa-c5aef492fddf" TypeName="CUIComponent" GUID="17de272f-121c-7b0f-8317-dab2c94b8e31" Name="" UserAdded="true">
+      <properties buttonalignment="Vertical" buttonpadding="25" buttonwidth="300" buttonheight="100">
+       <buttonscreenPosition x="150" y="0"/>
+       <buttonwithtextparams>
+        <element text="HelloWorld"/>
+       </buttonwithtextparams>
+       <buttonwithimageparams />
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="0d382720-1c0c-49de-bdfa-c5aef492fddf" TypeName="CUIComponent" GUID="718c9210-a428-b356-75e9-3d01770e91fb" Name="" UserAdded="true">
+      <properties buttonalignment="Vertical" buttonpadding="25" buttonwidth="100" buttonheight="100">
+       <buttonscreenPosition x="0" y="0"/>
        <buttonwithtextparams />
        <buttonwithimageparams>
         <element texture="Libs/UI/Textures/HardRight.dds"/>

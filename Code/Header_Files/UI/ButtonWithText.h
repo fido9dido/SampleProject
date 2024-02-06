@@ -10,7 +10,7 @@
 // Represents a Button With Text
 ////////////////////////////////////////////////////////
 
-class CButtonWithText : public CButton
+class CButtonWithText : public CButton<CButtonWithText>
 {
 private:
 	string m_text;

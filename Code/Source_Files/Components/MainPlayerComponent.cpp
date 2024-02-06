@@ -3,7 +3,8 @@
 #include "StdAfx.h"
 #include "Header_Files/Components/MainPlayerComponent.h"
 #include "Header_Files/Components/MovementComponent.h"
-#include "Header_Files/Components/Util.h"
+#include "Header_Files/Utility/Util.h"
+#include "Header_Files/Utility/IDGenerator.h"
 #include "GamePlugin.h"
 
 #include <CrySchematyc/Env/IEnvRegistrar.h>

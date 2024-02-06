@@ -2,7 +2,7 @@
 
 #include "StdAfx.h"
 #include "Header_Files/Components/MovementComponent.h"
-#include "Header_Files/Components/Util.h"
+#include "Header_Files/Utility/Util.h"
 
 CRY_STATIC_AUTO_REGISTER_FUNCTION(&SUtil::RegisterComponent<CMovementComponent>);
 

@@ -2,39 +2,98 @@
 #ifndef BUTTON_H
 #define BUTTON_H
 
+#include "Header_Files/Utility/IDGenerator.h" 
+#include "Header_Files/UI/IButton.h" 
+
 #include <CrySystem/Scaleform/IFlashUI.h> 
-
-class IButton
-{
-	virtual void SetButtonPosition(f32 posX, f32 posY) = 0 ;
-
-	virtual void SetButtonWidthAndHeight(int32 width, int32 height) = 0;
-	virtual void SetButtonWidth(int32 width) = 0;
-	virtual void SetButtonHeight(int32 height) = 0;
-	virtual void SetVisible(bool value) = 0;
-};
 
 ////////////////////////////////////////////////////////
 // Represents a base class for a button 
 ////////////////////////////////////////////////////////
 //todo: Should i make a pure vfunc?! probably! 
+template<typename T>
 class CButton : public IButton, public IUIElementEventListener
 {
 protected:
-	struct IUIElement* m_pUIElement;
+	IUIElement* m_pUIElement;
 public:
 	//For a button that uses the default asset
-	CButton() {};
-	//For a button that uses custom assets, it assumes it implements IButton
-	CButton(const string& gfxName);
-	~CButton() = default;
+	CButton() 
+	{
+		// This should fail because no asset are made with this name Yet
+		IUIElement* pUIElement = gEnv->pFlashUI->GetUIElement("Button");
+		
+		if (!pUIElement) { return; }
 
-	//I don't like SetPosition, but this function is here for now, for some reason the xml doesn't position it at all
-	virtual void SetButtonPosition(f32 posX, f32 posY) override;
-	virtual void SetButtonWidthAndHeight(int32 width, int32 height) override;
-	virtual void SetButtonWidth(int32 width) override;
-	virtual void SetButtonHeight(int32 height) override;
-	virtual void SetVisible(bool value) override;
+		m_pUIElement = pUIElement->GetInstance(CIDGenerator<T>::GenerateNewID());
+		if (m_pUIElement)
+		{
+			// m_pUIElement->RemoveEventListener(this);	// to avoid double registration
+			m_pUIElement->AddEventListener(this, "Button");
+			m_pUIElement->Init();
+		}
+	};
+	
+	//For a button that uses custom assets, it assumes it implements IButton
+	CButton(const string& gfxName)
+	{
+		IUIElement* pUIElement = gEnv->pFlashUI->GetUIElement(gfxName);
+		
+		if (!pUIElement) { return; }
+		
+		m_pUIElement = pUIElement->GetInstance(CIDGenerator<T>::GenerateNewID());
+		if (m_pUIElement)
+		{
+			// m_pUIElement->RemoveEventListener(this);	// to avoid double registration
+			m_pUIElement->AddEventListener(this, gfxName);
+			m_pUIElement->Init();
+		}
+	
+	};
+
+	~CButton()
+	{
+		CIDGenerator<T>::Reset();
+		
+		if (m_pUIElement)
+		{
+			m_pUIElement->RemoveEventListener(this);
+		}
+	}
+
+	void OnReset()
+	{
+		m_pUIElement->RemoveEventListener(this);
+		CIDGenerator<T>::Reset();
+	}
+
+	virtual void SetButtonPosition(f32 posX, f32 posY) override
+	{
+		CallFunction("SetButtonPosition", posX, posY);
+	}
+
+	virtual void SetButtonWidthAndHeight(int32 width, int32 height) override
+	{
+		CallFunction("SetButtonWidthAndHeight", width, height);
+	}
+
+	virtual void SetButtonWidth(int32 width) override
+	{
+		CallFunction("SetButtonWidth", width);
+	}
+
+	virtual void SetButtonHeight(int32 height) override
+	{
+		CallFunction("SetButtonHeight", height);
+	}
+
+	virtual void SetVisible(bool value) override
+	{
+		if (m_pUIElement)
+		{
+			m_pUIElement->SetVisible(true);
+		}
+	}
 	
 	template<typename ...Args>
 	void CallFunction(const char* funcName, Args&&... params)
@@ -93,6 +152,7 @@ public:
 	{
 		return (m_pUIElement == other.m_pUIElement) ? true : false;
 	}
+
 	bool operator!=(const CButton& other) const
 	{
 		return (m_pUIElement != other.m_pUIElement) ? true : false;
@@ -104,6 +164,7 @@ public:
 		desc.SetLabel("My Button");
 
 	}
+
 protected:
 	virtual void OnUIEvent(struct IUIElement* pSender, const SUIEventDesc& event, const SUIArguments& args) override { }
 	virtual void OnUIEventEx(struct IUIElement* pSender, const char* fscommand, const SUIArguments& args, void* pUserData) override { }

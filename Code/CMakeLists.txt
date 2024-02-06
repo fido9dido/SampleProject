@@ -34,7 +34,6 @@ add_sources("Components_uber.cpp"
 		"Header_Files/Components/MovementComponent.h"
 		"Header_Files/Components/SpawnPointComponent.h"
 		"Header_Files/Components/UIComponent.h"
-		"Header_Files/Components/Util.h"
 )
 add_sources("UI_uber.cpp"
     PROJECTS LearningProject
@@ -43,7 +42,14 @@ add_sources("UI_uber.cpp"
 		"Header_Files/UI/ButtonWithImage.h"
 		"Header_Files/UI/ButtonWithText.h"
 		"Header_Files/UI/CHUD.h"
+		"Header_Files/UI/IButton.h"
 		"Header_Files/UI/StructureUI.h"
+)
+add_sources("Utility_uber.cpp"
+    PROJECTS LearningProject
+    SOURCE_GROUP "Header_Files\\\\Utility"
+		"Header_Files/Utility/IDGenerator.h"
+		"Header_Files/Utility/Util.h"
 )
 add_sources("Source_Files_uber.cpp"
     PROJECTS LearningProject
@@ -60,7 +66,6 @@ add_sources("Components_uber.cpp"
 add_sources("UI_uber.cpp"
     PROJECTS LearningProject
     SOURCE_GROUP "Source_Files\\\\UI"
-		"Source_Files/UI/Button.cpp"
 		"Source_Files/UI/ButtonWithImage.cpp"
 		"Source_Files/UI/ButtonWithText.cpp"
 		"Source_Files/UI/StructureUI.cpp"

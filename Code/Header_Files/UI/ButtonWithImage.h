@@ -10,7 +10,7 @@
 // Represents a Button With Image 
 ////////////////////////////////////////////////////////
 //This is work in progress, I can't compile the asset for some weird AS3 bug
-class CButtonWithImage : public CButton
+class CButtonWithImage : public CButton<CButtonWithImage>
 {
 private:
 	string m_iconPath;

@@ -14,9 +14,14 @@ Currently it
    	*	Button classes are still Work in Progress!
    	*	Assets made using AS3 and button classes Implemented in C++, I am not using flow graph.
    	*	ButtonWithText and ButtonWithImage have inital assets for displaying buttons
-   	*	Make Empty Entity and add UI component then Add a button from there, UIComponent is used to test UI code for now
+   	*	UIComponent is used to test UI code for now
+   	*	Make an Empty Entity and add UI component then Add a buttons from there, 
+   	*	use ButtonWithImage or ButtonWithText seperately, each in a different component
+	
    	
 issues:	
 *	UI
-   	*	xml doesn't seem to position the button where i told it to!
+   	*	Padding doesn't work properly for some reason
+   	*	you can overlap ButtonWithText and ButtonWithImage
+			in this case ButtonWithText will be drawn on top of ButtonWithImage, make sure they have in a different position
 	

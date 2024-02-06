@@ -4,10 +4,8 @@
 #define UI_COMPONENT_H
 
 #include <CryEntitySystem/IEntitySystem.h>
-#include <Header_Files/UI/ButtonWithText.h>
 #include <CrySchematyc/Utils/Array.h>
 #include "CrySerialization/SerializationUtils.h"
-#include <Header_Files/UI/StructureUI.h>
 
 struct SButtonWithTextParameters
 {
@@ -53,6 +51,7 @@ enum class ECAlignment
 	Vertical,
 	Horizontal
 };
+
 static void ReflectType(Schematyc::CTypeDesc<ECAlignment>& desc)
 {
 	desc.SetGUID("{32C14C12-E48F-4E35-A570-2A6AD43F8718}"_cry_guid);
@@ -62,14 +61,6 @@ static void ReflectType(Schematyc::CTypeDesc<ECAlignment>& desc)
 	desc.AddConstant(ECAlignment::Horizontal, "Horizontal", "Horizontal");
 }
 
-template<typename T>
-struct ButtonDeleter {
-	void operator()	(T* ptr) {
-		ptr->release();
-		ptr = nullptr;
-	}
-};
-
 ////////////////////////////////////////////////////////
 // Represents a UI Component
 // For now I am using this class to test whether buttons works
@@ -77,14 +68,15 @@ struct ButtonDeleter {
 class CUIComponent final : public IEntityComponent
 {
 public:
-	std::unique_ptr<CButtonWithText> m_pButtonWithText;
-	std::unique_ptr<CButtonWithImage> m_pButtonWithImage;
+
+	DynArray<std::shared_ptr<class CButtonWithText>> m_pButtonWithText;
+	DynArray<std::shared_ptr<class CButtonWithImage>> m_pButtonWithImage;
 
 	Schematyc::CArray<SButtonWithTextParameters> m_ButtonWithTextParamsList;
 	Schematyc::CArray<SButtonWithImageParameters> m_ButtonWithImageParamsList;
 
 	// to help position buttons for testing
-	Vec2 m_screenPosition;
+	Vec2 m_screenPosition = ZERO;
 	int m_width;
 	int m_height;
 	ECAlignment m_alignment;
