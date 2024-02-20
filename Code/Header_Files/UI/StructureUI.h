@@ -1,4 +1,5 @@
 // Fill out your copyright notice here.
+
 #ifndef STRUCTURE_UI_H
 #define STRUCTURE_UI_H
 
@@ -7,15 +8,37 @@
 #include <Header_Files/UI/ButtonWithImage.h>
 #include "CrySchematyc/ResourceTypes.h"
 
+class ResourceCost
+{
+public:
+	int m_Count;
+
+};
+enum class ECStructureType
+{
+	House
+	, Quarry
+	, Count
+};
+static void ReflectType(Schematyc::CTypeDesc<ECStructureType>& desc)
+{
+	desc.SetGUID("{C8B4EF78-3F15-4259-8404-80B55EE45AFE}"_cry_guid);
+	desc.SetLabel("StructureType");
+	desc.SetDefaultValue(ECStructureType::House);
+	desc.AddConstant(ECStructureType::House, "House", "House");
+	desc.AddConstant(ECStructureType::Quarry, "Quarry", "Quarry");
+}
+
 struct SStructureButtonParameters
 {
 	Schematyc::TextureFileName m_texture;
-
+	
+	ECStructureType m_Type;
+	
 	SStructureButtonParameters() = default;
 	
 	inline bool operator==(const SStructureButtonParameters& rhs) const { return 0 == memcmp(this, &rhs, sizeof(rhs)); }
 
-	//EntityToSpawn
 
 	void Serialize(Serialization::IArchive& archive)
 	{
@@ -30,7 +53,7 @@ struct SStructureButtonParameters
 
 ////////////////////////////////////////////////////////
 // Represents a Structure's Button
-// Work in Progress, after I finish
+// Work in Progress @todo
 ////////////////////////////////////////////////////////
 class CStructureUI: public CButtonWithImage
 {
@@ -48,7 +71,7 @@ public:
 	static void ReflectType(Schematyc::CTypeDesc<CStructureUI>& desc)
 	{
 		desc.SetGUID("{22D17C7F-A18B-4C87-A754-D9DD748CC8B8}"_cry_guid);
-		desc.SetLabel("Button With Image");
+		desc.SetLabel("Structure UI");
 	}
 
 private:

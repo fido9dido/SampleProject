@@ -55,7 +55,7 @@ enum class ECAlignment
 static void ReflectType(Schematyc::CTypeDesc<ECAlignment>& desc)
 {
 	desc.SetGUID("{32C14C12-E48F-4E35-A570-2A6AD43F8718}"_cry_guid);
-	desc.SetLabel("SpawnType");
+	desc.SetLabel("ButtonAlignment");
 	desc.SetDefaultValue(ECAlignment::Vertical);
 	desc.AddConstant(ECAlignment::Vertical, "Vertical", "Vertical");
 	desc.AddConstant(ECAlignment::Horizontal, "Horizontal", "Horizontal");
@@ -68,10 +68,44 @@ static void ReflectType(Schematyc::CTypeDesc<ECAlignment>& desc)
 class CUIComponent final : public IEntityComponent
 {
 public:
+	
+	CUIComponent(const CUIComponent& other)
+		: m_ButtonWithTextParamsList(std::move(other.m_ButtonWithTextParamsList))
+		, m_ButtonWithImageParamsList(std::move(other.m_ButtonWithImageParamsList))
+	{
+		CRY_ASSERT_MESSAGE(false, "Check the callstack to find out who is triggering this");
+		m_screenPosition = other.m_screenPosition;
+		m_width = other.m_width;
+		m_height = other.m_height;
+		m_alignment = other.m_alignment;				   
+		m_padding = other.m_padding;
+	}
+	CUIComponent& operator =(const CUIComponent& other)
+	{
+		CRY_ASSERT_MESSAGE(false, "Check the callstack to find out who is triggering this");
+		while (m_ButtonWithTextParamsList.Size() != 0)
+		{
+			m_ButtonWithTextParamsList.PopBack();
+		}	
 
-	DynArray<std::shared_ptr<class CButtonWithText>> m_pButtonWithText;
-	DynArray<std::shared_ptr<class CButtonWithImage>> m_pButtonWithImage;
+		while (m_ButtonWithImageParamsList.Size() != 0)
+		{
+			m_ButtonWithImageParamsList.PopBack();
+		}
 
+		m_ButtonWithTextParamsList = Schematyc::CArray<SButtonWithTextParameters>(other.m_ButtonWithTextParamsList);
+		m_ButtonWithImageParamsList = Schematyc::CArray<SButtonWithImageParameters>(other.m_ButtonWithImageParamsList);
+
+		m_screenPosition = other.m_screenPosition;
+		m_width = other.m_width;
+		m_height = other.m_height;
+		m_alignment = other.m_alignment;
+		m_padding = other.m_padding;
+		return *this;
+	}
+	std::vector<std::unique_ptr<class CButtonWithText>> m_pButtonWithText;
+	std::vector<std::unique_ptr<class CButtonWithImage>> m_pButtonWithImage;
+	
 	Schematyc::CArray<SButtonWithTextParameters> m_ButtonWithTextParamsList;
 	Schematyc::CArray<SButtonWithImageParameters> m_ButtonWithImageParamsList;
 

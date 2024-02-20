@@ -1,4 +1,4 @@
-<AssetMetadata version="0" type="Level" guid="1efb740f-d7b8-f0e1-9326-8d4c20f282db" source="" timestamp="1707201943">
+<AssetMetadata version="0" type="Level" guid="1efb740f-d7b8-f0e1-9326-8d4c20f282db" source="" timestamp="1708455173">
  <Files>
   <File path="default/default.level"/>
  </Files>
@@ -21,10 +21,10 @@
   <Path>%engine%/engineassets/texturemsg/defaultnouvs.dds</Path>
   <Path>%engine%/engineassets/textures/skys/night/half_moon.dds</Path>
   <Path>animations/mannequin/adb/controllerdefinition.xml</Path>
-  <Path>animations/mannequin/adb/itemtags.xml</Path>
   <Path>animations/mannequin/adb/playerfragmentids.xml</Path>
   <Path>animations/mannequin/adb/playertags.xml</Path>
-  <Path>editor/resourcecache/engineassets/textures/white.dds</Path>
+  <Path>animations/motusanims/ide2move/idle_to_jog_3p.caf</Path>
+  <Path>animations/motusanims/steprotate/steprotate_lft_180_3p.caf</Path>
   <Path>engineassets/textures/white.dds</Path>
   <Path>libs/actiongraphs/sdk_explosion.xml</Path>
   <Path>libs/flowgraphmodules/tod_street_light.xml</Path>
@@ -91,10 +91,14 @@
   <Path>objects/characters/mannequin/mannequin.mtl</Path>
   <Path>objects/characters/mannequin/mannequin.skin</Path>
   <Path>objects/characters/mannequin/mannequin_idle.caf</Path>
-  <Path>objects/characters/mannequin/mannequin_jumping_down.caf</Path>
-  <Path>objects/characters/mannequin/mannequin_jumping_up.caf</Path>
+  <Path>objects/characters/mannequin/mannequin_jog_backwards_slow.caf</Path>
+  <Path>objects/characters/mannequin/mannequin_jump_down.caf</Path>
+  <Path>objects/characters/mannequin/mannequin_jump_up.caf</Path>
+  <Path>objects/characters/mannequin/mannequin_left_turn_90.caf</Path>
+  <Path>objects/characters/mannequin/mannequin_right_turn_90.caf</Path>
+  <Path>objects/characters/mannequin/mannequin_sprint.caf</Path>
   <Path>objects/characters/mannequin/mannequin_tpose.caf</Path>
-  <Path>objects/characters/mannequin/mannequin_walking.caf</Path>
+  <Path>objects/characters/mannequin/mannequin_walk.caf</Path>
   <Path>objects/effects/natural/particle_green_leafs.mtl</Path>
   <Path>objects/effects/natural/particle_green_leafs_a.cgf</Path>
   <Path>objects/effects/natural/particle_green_leafs_b.cgf</Path>

@@ -2,7 +2,7 @@
  <Tags>
   <Tag name="Idle"/>
   <Tag name="Walk" subTagDef="Animations/Mannequin/ADB/PlayerTags.xml"/>
-  <Tag name="Jump_UP" subTagDef="Animations/Mannequin/ADB/PlayerTags.xml"/>
-  <Tag name="Jump_Down" subTagDef="Animations/Mannequin/ADB/PlayerTags.xml"/>
+  <Tag name="Jump_UP"/>
+  <Tag name="Jump_Down"/>
  </Tags>
 </TagDefinition>

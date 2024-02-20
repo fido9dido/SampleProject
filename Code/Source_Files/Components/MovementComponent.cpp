@@ -1,7 +1,8 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Fill out your copyright notice here.
 
 #include "StdAfx.h"
 #include "Header_Files/Components/MovementComponent.h"
+#include <DefaultComponents/Cameras/CameraComponent.h>
 #include "Header_Files/Utility/Util.h"
 
 CRY_STATIC_AUTO_REGISTER_FUNCTION(&SUtil::RegisterComponent<CMovementComponent>);
@@ -11,7 +12,7 @@ void CMovementComponent::SetOwner(CMainPlayerComponent* playerComponent)
 	m_pOwner = playerComponent;
 }
 
-void CMovementComponent::Reset()
+void CMovementComponent::OnReset()
 {
 	m_mouseDelta.zero();
 	ResetCameraTransform();
@@ -19,12 +20,17 @@ void CMovementComponent::Reset()
 
 void CMovementComponent::ResetCameraTransform()
 {
-	m_cameraPosition = m_cameraDefaultPosition;
-	m_cameraRotation = Quat(CCamera::CreateOrientationYPR(m_cameraDefaultAngle));
-	SetCameraTransform(m_cameraDefaultPosition, m_cameraRotation);
+	m_cameraLocalPosition = m_cameraDefaultPosition;
+	m_cameraRotation = CCamera::CreateOrientationYPR(m_cameraDefaultAngle);
+	UpdateCameraRotation(0);
 }
 
-void CMovementComponent::Update(float deltaTime)
+void CMovementComponent::OnBeginPlay()
+{
+	OnReset();
+}
+
+void CMovementComponent::OnUpdate(float deltaTime)
 {
 	if (m_cameraflags & ECCameraFlag::Rotate)
 	{
@@ -42,6 +48,10 @@ void CMovementComponent::Update(float deltaTime)
 			UpdateCharacterMovement(deltaTime);
 		}
 	}
+	else
+	{
+		SyncCameraWithPlayer();
+	}
 }
 
 void CMovementComponent::UpdateCharacterMovement(float deltaTime)
@@ -49,7 +59,6 @@ void CMovementComponent::UpdateCharacterMovement(float deltaTime)
 	float moveSpeed = m_moveSpeed;
 	bool bOnGround = m_pOwner->GetCharacterController()->IsOnGround();
 
-	//unfortuantely you can't sprint on air
 	if (!bOnGround)
 	{
 		moveSpeed = m_airSpeed;
@@ -67,8 +76,21 @@ void CMovementComponent::UpdateCharacterMovement(float deltaTime)
 
 	CalculateVelocity(m_velocity = ZERO, moveSpeed, deltaTime);
 
-	Quat playerRotation(m_pOwner->GetCameraComponent()->GetWorldTransformMatrix());
-	m_pOwner->GetCharacterController()->AddVelocity(playerRotation * m_velocity);
+	Vec3 playerDirection = Quat(m_pOwner->GetCameraComponent()->GetWorldTransformMatrix()) * m_velocity;
+	m_pOwner->GetCharacterController()->AddVelocity(playerDirection);
+	
+	Quat newRotation = Quat::CreateRotationVDir(m_velocity);
+	m_pEntity->SetRotation(newRotation);
+	
+	SyncCameraWithPlayer();
+}
+
+void CMovementComponent::SyncCameraWithPlayer()
+{
+	Matrix34 newCameraTransform = m_pEntity->GetWorldTM();
+	newCameraTransform.SetRotation33(m_cameraRotation);
+	newCameraTransform.AddTranslation(m_cameraLocalPosition + m_velocity);
+	m_pOwner->m_pCameraEntity->SetWorldTM(newCameraTransform);
 }
 
 void CMovementComponent::CalculateVelocity(Vec3& velocity, float moveSpeed, float deltaTime)
@@ -96,8 +118,8 @@ void CMovementComponent::UpdateCameraMovement(float deltaTime)
 	Vec3 velocity = ZERO;
 	CalculateVelocity(velocity, m_cameraSpeed, deltaTime);
 	
-	m_cameraPosition += m_pitchRotation * velocity;
-	SetCameraTransform(m_cameraPosition, Quat(m_pitchRotation));
+	m_cameraLocalPosition += m_pitchRotation * velocity;
+	SetCameraTransform(m_cameraLocalPosition, m_pitchRotation);
 }
 
 void CMovementComponent::UpdateCameraRotation(float deltaTime)
@@ -106,9 +128,10 @@ void CMovementComponent::UpdateCameraRotation(float deltaTime)
 	rotationAngle.y = crymath::clamp<f32>(rotationAngle.y += m_mouseDelta.y * m_rotationSpeed, m_minYawRotation, m_maxYawRotation);
 	rotationAngle.x += m_mouseDelta.x * m_rotationSpeed;
 	rotationAngle.z = 0;
-	UpdateTurn(rotationAngle);
+	
+	//UpdateTurn(rotationAngle);
 	UpdateLookAt(rotationAngle);
-	m_cameraRotation = Quat(CCamera::CreateOrientationYPR(rotationAngle));
+	m_cameraRotation = CCamera::CreateOrientationYPR(rotationAngle);
 }
 
 void CMovementComponent::UpdateLookAt(const Ang3& cameraRotation)
@@ -116,8 +139,9 @@ void CMovementComponent::UpdateLookAt(const Ang3& cameraRotation)
 	Ang3 pitchAngle = cameraRotation;
 	pitchAngle.x = 0;
 	pitchAngle.z = 0;
-	m_pitchRotation = Quat(CCamera::CreateOrientationYPR(pitchAngle));
-	SetCameraTransform(m_cameraPosition, m_pitchRotation);
+	m_pitchRotation = CCamera::CreateOrientationYPR(pitchAngle);
+	SetCameraTransform(m_cameraLocalPosition, m_pitchRotation);
+	
 }
 
 void CMovementComponent::UpdateTurn(const Ang3& cameraRotation)
@@ -125,11 +149,11 @@ void CMovementComponent::UpdateTurn(const Ang3& cameraRotation)
 	Ang3 yawAngle = cameraRotation;
 	yawAngle.y = 0;
 	yawAngle.z = 0;
-	m_yawRotation = Quat(CCamera::CreateOrientationYPR(yawAngle));
+	m_yawRotation = CCamera::CreateOrientationYPR(yawAngle);
 	m_pOwner->GetEntity()->SetRotation(Quat(m_yawRotation));
 }
 
-void CMovementComponent::SetCameraTransform(const Vec3& localTranslation, const Quat& LocalRotation)
+void CMovementComponent::SetCameraTransform(const Vec3& localTranslation, const Matrix33& LocalRotation)
 {
 	Matrix34 newTransform;
 	newTransform.SetTranslation(localTranslation);
@@ -151,27 +175,27 @@ void CMovementComponent::HandleInputFlagChange(const CEnumFlags<ECInputFlag> fla
 {
 	switch (type)
 	{
-	case ECInputFlagType::Hold:
-	{
-		if (activationMode == eAAM_OnRelease)
+		case ECInputFlagType::Hold:
 		{
-			m_inputFlags &= ~flags;
+			if (activationMode == eAAM_OnRelease)
+			{
+				m_inputFlags &= ~flags;
+			}
+			else
+			{
+				m_inputFlags |= flags;
+			}
 		}
-		else
+		break;
+		case ECInputFlagType::Toggle:
 		{
-			m_inputFlags |= flags;
+			if (activationMode == eAAM_OnRelease)
+			{
+				// Toggle the bit(s)
+				m_inputFlags ^= flags;
+			}
 		}
-	}
-	break;
-	case ECInputFlagType::Toggle:
-	{
-		if (activationMode == eAAM_OnRelease)
-		{
-			// Toggle the bit(s)
-			m_inputFlags ^= flags;
-		}
-	}
-	break;
+		break;
 
 	}
 }
@@ -180,27 +204,27 @@ void CMovementComponent::HandleCameraInputChange(const CEnumFlags<ECCameraFlag> 
 {
 	switch (type)
 	{
-	case ECInputFlagType::Hold:
-	{
-		if (activationMode == eAAM_OnRelease)
+		case ECInputFlagType::Hold:
 		{
-			m_cameraflags &= ~flags;
+			if (activationMode == eAAM_OnRelease)
+			{
+				m_cameraflags &= ~flags;
+			}
+			else
+			{
+				m_cameraflags |= flags;
+			}
 		}
-		else
+		break;
+		case ECInputFlagType::Toggle:
 		{
-			m_cameraflags |= flags;
+			if (activationMode == eAAM_OnRelease)
+			{
+				// Toggle the bit(s)
+				m_cameraflags ^= flags;
+			}
 		}
-	}
-	break;
-	case ECInputFlagType::Toggle:
-	{
-		if (activationMode == eAAM_OnRelease)
-		{
-			// Toggle the bit(s)
-			m_cameraflags ^= flags;
-		}
-	}
-	break;
+		break;
 
 	}
 }

@@ -1,25 +1,48 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Fill out your copyright notice here.
 
 #include "StdAfx.h"
 #include "Header_Files/Components/MainPlayerComponent.h"
 #include "Header_Files/Components/MovementComponent.h"
+#include "Header_Files/Components/AnimationComponent.h"
 #include "Header_Files/Utility/Util.h"
-#include "Header_Files/Utility/IDGenerator.h"
-#include "GamePlugin.h"
 
 #include <CrySchematyc/Env/IEnvRegistrar.h>
 #include <CryCore/StaticInstanceList.h>
 
 CRY_STATIC_AUTO_REGISTER_FUNCTION(&SUtil::RegisterComponent<CMainPlayerComponent>);
 
+Cry::DefaultComponents::CCameraComponent* CMainPlayerComponent::GetCameraComponent()
+{
+	return m_pCameraComponent;
+}
+
 void CMainPlayerComponent::Initialize()
 {
 	m_pCharacterControllerComponent = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CCharacterControllerComponent>();
 	m_pInputComponent = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CInputComponent>();
-	m_pCameraComponent = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CCameraComponent>();
-	m_pAdvancedAnimationComponent = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CAdvancedAnimationComponent>();
+	m_pAnimationComponent = m_pEntity->GetOrCreateComponent<CAnimationComponent>();
 	m_pMovementComponent = m_pEntity->GetOrCreateComponent<CMovementComponent>();
+
+	SEntitySpawnParams spawnParams;
+	if (IEntity* pEntity = gEnv->pEntitySystem->SpawnEntity(spawnParams, false))
+	{
+		// Create an instance of our component and attach it to the entity
+		m_pCameraComponent = pEntity->GetOrCreateComponent<Cry::DefaultComponents::CCameraComponent>();
+		gEnv->pEntitySystem->InitEntity(pEntity, spawnParams);
+		m_pCameraEntity = pEntity;
+	}
+
+	if (!m_pCameraEntity)																																   
+	{
+		CryLog("Entity class 'CTopDownCameraComponent' failed to spawn (entity name: %s)", GetEntity()->GetName());
+	}
+
 	m_pMovementComponent->SetOwner(this);
+	
+	if (m_pAnimationComponent)
+	{
+		m_pAnimationComponent->SetPlayerController(m_pCharacterControllerComponent);
+	}
 }
 
 Cry::Entity::EventFlags CMainPlayerComponent::GetEventMask() const
@@ -86,14 +109,19 @@ void CMainPlayerComponent::InitalizeInput()
 void CMainPlayerComponent::OnBeginPlay()
 {
 	InitalizeInput();
+	m_pMovementComponent->OnBeginPlay();
+	m_pAnimationComponent->OnBeginPlay();
+
 }
 
 void CMainPlayerComponent::OnUpdate(float deltaTime)
 {
-	m_pMovementComponent->Update(deltaTime);
+	m_pMovementComponent->OnUpdate(deltaTime);
+	m_pAnimationComponent->OnUpdate(deltaTime);
 }
 
 void CMainPlayerComponent::OnReset()
 {
-	m_pMovementComponent->Reset();
+	m_pMovementComponent->OnReset();
+	m_pAnimationComponent->OnReset();
 }

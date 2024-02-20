@@ -1,4 +1,5 @@
 // Fill out your copyright notice here.
+
 #ifndef BUTTON_H
 #define BUTTON_H
 
@@ -10,16 +11,17 @@
 ////////////////////////////////////////////////////////
 // Represents a base class for a button 
 ////////////////////////////////////////////////////////
-//todo: Should i make a pure vfunc?! probably! 
 template<typename T>
 class CButton : public IButton, public IUIElementEventListener
 {
 protected:
-	IUIElement* m_pUIElement;
+	IUIElement* m_pUIElement = nullptr;
 public:
 	//For a button that uses the default asset
 	CButton() 
 	{
+		CRY_ASSERT_MESSAGE(false, "a default asset for buttons doesn't exists yet");
+
 		// This should fail because no asset are made with this name Yet
 		IUIElement* pUIElement = gEnv->pFlashUI->GetUIElement("Button");
 		
@@ -28,7 +30,6 @@ public:
 		m_pUIElement = pUIElement->GetInstance(CIDGenerator<T>::GenerateNewID());
 		if (m_pUIElement)
 		{
-			// m_pUIElement->RemoveEventListener(this);	// to avoid double registration
 			m_pUIElement->AddEventListener(this, "Button");
 			m_pUIElement->Init();
 		}
@@ -44,7 +45,6 @@ public:
 		m_pUIElement = pUIElement->GetInstance(CIDGenerator<T>::GenerateNewID());
 		if (m_pUIElement)
 		{
-			// m_pUIElement->RemoveEventListener(this);	// to avoid double registration
 			m_pUIElement->AddEventListener(this, gfxName);
 			m_pUIElement->Init();
 		}

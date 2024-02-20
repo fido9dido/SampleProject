@@ -1,17 +1,11 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-#pragma once
+// Fill out your copyright notice here.
+
+#ifndef MOVEMENT_COMPONENT_H
+#define MOVEMENT_COMPONENT_H
 
 #include <CryEntitySystem/IEntityComponent.h>
-#include <CryMath/Cry_Camera.h>
-
-#include <ICryMannequin.h>
 #include <CrySchematyc/Utils/EnumFlags.h>
-
-#include <DefaultComponents/Cameras/CameraComponent.h>
-#include <DefaultComponents/Physics/CharacterControllerComponent.h>
-#include <DefaultComponents/Geometry/AdvancedAnimationComponent.h>
-#include <DefaultComponents/Input/InputComponent.h>
-#include <DefaultComponents/Audio/ListenerComponent.h>
+#include <ICryMannequin.h>
 
 ////////////////////////////////////////////////////////
 // Represents a Movement Component
@@ -36,28 +30,36 @@ enum class ECCameraFlag : uint8
 
 enum class ECInputFlagType
 {
-	Hold = 0,
-	Toggle
+	Hold = 0
+	, Toggle
 };
 
 class CMovementComponent : public IEntityComponent
 {
 private:
-	class CMainPlayerComponent* m_pOwner;
-	CEnumFlags<ECInputFlag> m_inputFlags;
-	CEnumFlags<ECCameraFlag> m_cameraflags;
+	class CMainPlayerComponent* m_pOwner = nullptr;
+	CEnumFlags<ECInputFlag> m_inputFlags ;
+	CEnumFlags<ECCameraFlag> m_cameraflags ;
 
+	//Camera
+	Matrix33 m_cameraRotation = ZERO;
+	Matrix33 m_pitchRotation = ZERO;
+	Matrix33 m_yawRotation = ZERO;
+	Vec2 m_mouseDelta = ZERO;
+
+	//local space
+	Vec3 m_cameraDefaultPosition = Vec3(0.f, -2.f, 1.f);
+	Vec3 m_cameraDefaultAngle = Vec3(0.f, -0.2f, 0.f);
+	Vec3 m_cameraLocalPosition = ZERO;
+
+	//world  space
+	Matrix34 m_cameraWorldMatrix = ZERO;
+	Vec3 m_cameraWorldPosition = ZERO;
+	
+	//player 
+	Quat m_playerRotation = Quat(0.f, 0.f, 0.f, 0.f);
 	Vec3 m_jumpVelocity = Vec3(0, 0, 10.f);
 	Vec3 m_velocity = ZERO;
-	
-	//Camera
-	Quat m_cameraRotation = Quat(0.f, 0.f, 0.f, 0.f);
-	Quat m_yawRotation;
-	Quat m_pitchRotation;
-	Vec3 m_cameraDefaultAngle = Vec3(0.f, -0.5f, 0.f);
-	Vec3 m_cameraDefaultPosition = Vec3(0.f, -6.f, 4.f);
-	Vec3 m_cameraPosition = ZERO;
-	Vec2 m_mouseDelta = ZERO;
 
 	float m_minYawRotation = -1.f;
 	float m_maxYawRotation = 1.f;
@@ -71,17 +73,20 @@ public:
 	CMovementComponent() = default;
 	virtual ~CMovementComponent() = default;
 
-	const Vec3& GetCameraPosition() const { return m_cameraPosition; };
-	const Quat& GetCameraRotation() const { return m_cameraRotation; };
+	const Vec3& GetCameraPosition() const { return m_cameraLocalPosition; };
+	const Matrix33& GetCameraRotation() const { return m_cameraRotation; };
 	const Vec3& GetVelocity() const { return m_velocity; };
 	const Vec3& GetJumpVelocity() const { return m_jumpVelocity; };
 
 	void SetOwner(class CMainPlayerComponent* playerComponent);
-	void Reset();
+	void OnReset();
 	//Reset Camera transform to the default
 	void ResetCameraTransform();
-	void Update(float deltaTime);
+	void OnBeginPlay();
+	void OnUpdate(float deltaTime);
 	void UpdateCharacterMovement(float frameTime);
+
+	void SyncCameraWithPlayer();
 	
 	// reset velocity before passing it unless you want that effect
 	void CalculateVelocity(Vec3& velocity, float moveSpeed, float deltaTime);
@@ -92,10 +97,9 @@ public:
 	void UpdateCameraMovement(float deltaTime);
 	void UpdateCameraRotation(float deltaTime);
 	void UpdateLookAt(const Ang3& cameraRotation);
-	//Turn Player to face camera
-	void UpdateTurn(const Ang3& cameraRotation);
-	void SetCameraTransform(const Vec3& localTranslation, const Quat& LocalRotation);
-	
+	void UpdateTurn(const Ang3& rotation);
+	void SetCameraTransform(const Vec3& localTranslation, const Matrix33& LocalRotation);
+
 	void Turn(int activationMode, float value);
 	void LookUp(int activationMode, float value);
 	// ~Camera
@@ -103,8 +107,8 @@ public:
 	static void ReflectType(Schematyc::CTypeDesc<CMovementComponent>& desc)
 	{
 		desc.SetGUID("{DBFFD540-BE47-4927-ABAD-2DD358FCD810}"_cry_guid);
-		desc.SetEditorCategory("MovementComponent");
-		desc.SetLabel("Movement");
+		desc.SetEditorCategory("Player");
+		desc.SetLabel("Movement Component");
 		desc.SetDescription("Represent Settings for the Movement Components");
 		//desc.SetIcon("icons:General/*.ico");
 		desc.SetComponentFlags({ IEntityComponent::EFlags::Transform, IEntityComponent::EFlags::Socket, IEntityComponent::EFlags::Attach, IEntityComponent::EFlags::ClientOnly });
@@ -118,3 +122,5 @@ public:
 		desc.AddMember(&CMovementComponent::m_jumpVelocity, 'jvel', "jumpvelocity", "Jump Velocity", "Set Jump velocity vector", false);
 	}
 };
+
+#endif

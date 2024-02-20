@@ -30,7 +30,7 @@ void CUIComponent::ProcessEvent(const SEntityEvent& event)
 			{
 				for (size_t i = 0; i < length; i++)
 				{
-					m_pButtonWithText.emplace_back(std::move(std::make_shared<CButtonWithText>()));
+					m_pButtonWithText.emplace_back(std::move(std::make_unique<CButtonWithText>()));
 					CButtonWithText* pButtonWithText = m_pButtonWithText[i].get();
 					pButtonWithText->SetButtonWidthAndHeight(m_width, m_height);
 					if (m_alignment == ECAlignment::Horizontal)
@@ -50,7 +50,7 @@ void CUIComponent::ProcessEvent(const SEntityEvent& event)
 			{
 				for (size_t i = 0; i < m_ButtonWithImageParamsList.Size(); i++)
 				{
-					m_pButtonWithImage.emplace_back(std::make_shared<CButtonWithImage>());
+					m_pButtonWithImage.emplace_back(std::move(std::make_unique<CButtonWithImage>()));
 					CButtonWithImage* pButtonWithImage = m_pButtonWithImage[i].get();
 					pButtonWithImage->SetDefaultWidthAndHeight(m_width, m_height);
 					if (m_alignment == ECAlignment::Horizontal)

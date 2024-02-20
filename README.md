@@ -9,7 +9,9 @@ Currently it
 	*	LShift + WASD to move the Camera 
 	*	Space to Jump - Player Only!
 	*	Tab Reset Camera
-*	Mixamo Asset (Animation is not set yet)
+*	Animation
+	*	Mixamo Asset
+	*	Implemented basic animation Jump-Walk-Idle
 *	UI
    	*	Button classes are still Work in Progress!
    	*	Assets made using AS3 and button classes Implemented in C++, I am not using flow graph.
@@ -24,4 +26,7 @@ issues:
    	*	Padding doesn't work properly for some reason
    	*	you can overlap ButtonWithText and ButtonWithImage
 			in this case ButtonWithText will be drawn on top of ButtonWithImage, make sure they have in a different position
-	
+*	Animation
+   	*	There's a tiny delay in animation, it should be fixed with a blendspace in the future
+   	   	*	Animation doesn't start or stop when it's told!
+   	*	There's unnecessary allocations, Need to figure out how to configure actions for re-use! 
